@@ -1,3 +1,17 @@
+console.log("Haha, hahahaha!")
+
+// Initialize Firebase (ADD YOUR OWN DATA)
+var config = {
+    apiKey: "AIzaSyAe3wNXTXNl4KQ1pVuVkWE5NAmRE66yCtw",
+    authDomain: "birdsong-survey.firebaseapp.com",
+    databaseURL: "https://birdsong-survey-default-rtdb.firebaseio.com",
+    projectId: "birdsong-survey",
+    storageBucket: "birdsong-survey.appspot.com",
+    messagingSenderId: "753388476054",
+    appId: "1:753388476054:web:83910c18708179edbed4b7"
+};
+
+
 const birds =  [
    {
     "name": "Common Loon",
@@ -7,10 +21,9 @@ const birds =  [
   }
 ]
 
-var maincolor = "transparent"
-
-
-
+var bird = birds[0].name
+var color = null
+var shape = null
 
 var sound = new Howl({
   src: [birds[0].url],
