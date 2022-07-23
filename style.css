@@ -27,6 +27,7 @@
 
 .shapeselect .shape {
   display: inline-flex;
+  justify-content: center;
   border: 1px solid black;
   width: 30%;
   aspect-ratio: 1/1;
