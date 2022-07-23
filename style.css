@@ -26,11 +26,17 @@
   text-align: center;
 }
 
+a {
+  color: var(--blue);
+  text-decoration: none;
+  border-bottom: 1px solid var(--blue)
+}
+
 
 
 .disable {
-  opacity: .6;
   pointer-events: none;
+  animation: pulse 1s infinite;
 }
 
 .shape {
@@ -46,6 +52,16 @@
   width: 30%;
   aspect-ratio: 1/1;
   margin: auto;
+}
+
+.credit {
+  font-size: .9rem;
+}
+
+@keyframes pulse {
+  0%   { opacity: .1; }
+  50%   { opacity: 1; }
+  100% { opacity: .1; }
 }
 
 .shape svg {
@@ -72,14 +88,16 @@ html, body {
   font-family: "Nay Aug", sans-serif;
 -webkit-font-smoothing: antialiased;
 -moz-osx-font-smoothing: grayscale;
-    margin-top: 5vh;
   margin-bottom: 5vh;
+  margin-top: 0;
   font-size: 1.05rem;
 }
 
 .container {
   max-width: 300px;
   margin: auto;
+  border-top: 5px solid var(--black);
+  padding-top: 30px;
 }
 
 .colorselect .color {
