@@ -8,6 +8,7 @@
   --brown: #89582e;
   --yellow: #fd8c39;
   --purple: #746ad0;
+  --pink: #f45c87;
   --black: black;
   --white: white;
 }
@@ -23,7 +24,7 @@
 
 .shape {
   display: flex;
-  background-color: #9e9696;
+  background-color: var(--white);
 }
 
 .shapeselect .shape {
@@ -36,7 +37,7 @@
 }
 
 .shape svg {
-  fill: var(--white);
+  fill: gainsboro;
   transition: .2s;
 }
 
