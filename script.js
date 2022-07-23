@@ -34,6 +34,7 @@ var sound = new Howl({
   onend: function() {
     $("#play").removeClass("disable")
     $("#play").html("Play bird sound");
+    $(".screen").removeClass("locked");
   }
 });
 
@@ -76,7 +77,11 @@ $( "#submit" ).on( "click", function( event ) {
     shape: shape
   })
   
-  window.location.replace("submitted.html");
+  setTimeout(() => {
+    window.location.replace("submitted.html");
+}, "500")
+  
+$("#submit").addClass("disable");
 
 
 });
