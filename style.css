@@ -1,3 +1,34 @@
 :root {
-  --color-bg: #69F7BE;
+  --color-bg: #f9ecdb;
+  --blue: #479edb;
+  --red: #f4221e;
+  --yellow: #fd8c39;
+  --purple: #746ad0;
+  --black: black;
+}
+
+@font-face {
+  font-family: "Nay Aug";
+  src: url("https://cdn.glitch.global/cedc551f-8766-4635-b71b-ca089ffe676c/NayAugp-Regular.ttf?v=1646230944800") format("truetype")
+}
+
+html, body {
+  background-color: var(--color-bg);
+  color: var(--black);
+  text-align: center; 
+  font-family: "Nay Aug", sans-serif;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+    margin-top: 5vh;
+  font-size: 1.05rem;
+}
+
+.container {
+  max-width: 700px;
+  border: 1px solid var(--black);
+  margin: auto;
+}
+
+h1, h2, h3 {
+  font-weight: normal;
 }
