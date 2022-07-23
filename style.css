@@ -26,6 +26,13 @@
   text-align: center;
 }
 
+
+
+.disable {
+  opacity: .6;
+  pointer-events: none;
+}
+
 .shape {
   display: flex;
   background-color: var(--white);
