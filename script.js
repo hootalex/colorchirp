@@ -26,6 +26,9 @@ $( ".color" ).on( "click", function( event ) {
   $(this).addClass("selected")
   maincolor = $(this).css("background-color")
   $(".shape>svg").css("fill", maincolor)
+  $("#submit").css("background-color", maincolor)
+  $("#submit").css("border", "1px solid "+maincolor)
+  $(".container").css("border-top", "5px solid "+maincolor)
   
 });
 
