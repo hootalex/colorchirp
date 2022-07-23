@@ -18,6 +18,10 @@
   src: url("https://cdn.glitch.global/cedc551f-8766-4635-b71b-ca089ffe676c/NayAugp-Regular.ttf?v=1646230944800") format("truetype")
 }
 
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
 .shapeselect {
   text-align: center;
 }
@@ -25,6 +29,7 @@
 .shape {
   display: flex;
   background-color: var(--white);
+  border-radius: 10px;
 }
 
 .shapeselect .shape {
@@ -74,6 +79,7 @@ html, body {
   width: 50px;
   height: 50px;
   display: inline-block;
+  border-radius: 10px;
 }
 
 .color {
