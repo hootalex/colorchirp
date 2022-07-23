@@ -11,6 +11,9 @@ var config = {
     appId: "1:753388476054:web:83910c18708179edbed4b7"
 };
 
+firebase.initializeApp(config);
+
+var messagesRef = firebase.database().ref("messages");
 
 const birds =  [
    {
@@ -43,10 +46,15 @@ $( ".color" ).on( "click", function( event ) {
   $("#submit").css("border", "1px solid "+maincolor)
   $(".container").css("border-top", "5px solid "+maincolor)
   
+  color = $(this).attr("color");
+  console.log(color)
+  
 });
 
 $( ".shape" ).on( "click", function( event ) {
   $(".shape").removeClass("selected")
+  shape = $(this).attr("shape");
+  console.log(shape)
   $(this).addClass("selected")
 });
 
@@ -57,3 +65,18 @@ sound.play();
   });
 
 $(".credit").html("Sound recorded by " + "<a href='"+birds[0].xenolink+"'>"+birds[0].copyright+"</a>")
+
+$( "#submit" ).on( "click", function( event ) {
+  
+    var newMessageRef = messagesRef.push();
+  
+  newMessageRef.set({
+    bird: bird,
+    color: color,
+    shape: shape
+  })
+  
+  window.location.replace("submitted.html");
+
+
+});
