@@ -23,6 +23,7 @@
 
 .shape {
   display: flex;
+  background-color: #9e9696;
 }
 
 .shapeselect .shape {
@@ -35,16 +36,17 @@
 }
 
 .shape svg {
-  fill: var(--lightblue);
+  fill: var(--white);
+  transition: .2s;
 }
 
-#play {
+.button {
   border: 1px solid var(--black);
   padding: 10px;
   border-radius: 100px;
 }
 
-#play:hover {
+.button:hover {
   background-color: var(--black);
   color: var(--color-bg);
   cursor: pointer;
@@ -58,6 +60,7 @@ html, body {
 -webkit-font-smoothing: antialiased;
 -moz-osx-font-smoothing: grayscale;
     margin-top: 5vh;
+  margin-bottom: 5vh;
   font-size: 1.05rem;
 }
 
@@ -100,5 +103,4 @@ h1 {
 
 hr {
   border: none;
-  border-bottom: 1px solid rgba(0,0,0,.15);
 }
