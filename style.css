@@ -34,10 +34,6 @@
   margin: auto;
 }
 
-.shape:hover {
-  border: 1px solid var(--black);
-}
-
 .shape svg {
   fill: var(--lightblue);
 }
@@ -74,6 +70,18 @@ html, body {
   width: 50px;
   height: 50px;
   display: inline-block;
+}
+
+.color {
+  border: 2px solid var(--color-bg);
+}
+
+.color:hover, .shape:hover {
+  box-shadow: 0px 0px 0px 1px rgba(0,0,0,.2);
+}
+
+.selected {
+  box-shadow: 0px 0px 0px 2px rgba(0,0,0,1)!important;
 }
 
 .shape svg {
