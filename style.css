@@ -116,6 +116,15 @@ width: 100%;
     align-items: center;
 }
 
+h4 {
+      display: flex;
+    align-items: center;
+}
+
+h4 img {
+  padding-right: 10px;
+}
+
 .container {
   max-width: 950px;
   margin: auto;
@@ -167,4 +176,11 @@ h1 {
 
 hr {
   border: none;
+}
+
+
+@media screen and (max-width: 600px) {
+  nav {
+    flex-direction: column;
+  }
 }
