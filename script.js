@@ -1,3 +1,7 @@
+var circle = ''
+
+
+
 $( document ).ready(function() {
 
 //All you have to do is enter the chart data in the proper order, and specific the max value and unit of measurement. 
@@ -26,27 +30,33 @@ var colorchart = [
 
 ];
   
+var scolor = "#479edb"
+  
 var shapechart = [
 
-["Circle", "51", "#f4221e"],
+["Circle", "51", scolor],
 
-["Half circle", "105" , "#ff6700"],
+["Half circle", "105" , scolor],
 
-["Yellow", "23" , "#fd8c39"],
+["Triangle", "15" , scolor],
 
-["Green", "25", "#5baa09"],
+["Square", "3", scolor],
 
-["Light blue", "72", "#479edb"],
+["Diamond", "7", scolor],
 
-["Blue", "88", "#093ac6"],
+["Rhombus", "24", scolor],
 
-["Purple", "77", "#746ad0"],
+["Bouba", "22", scolor],
 
-["Pink", "5", "#f45c87"],
+["Kiki", "6", scolor],
 
-["Brown", "80", "#89582e"],
+["Loop", "187", scolor],
 
-["Black", "80", "#000000"]
+["Line", "3", scolor],
+  
+["Wave", "54", scolor],
+  
+["Zigzag", "3", scolor],
 
 ];
 
@@ -54,12 +64,15 @@ var unit = "";
 
 var colormaxval = 88
 
-var shapemaxval = 88
+var shapemaxval = 187
 
 function drawchart(){
 
 jQuery.each(colorchart, function(index, value) {
   $('.colorchart').append("<p>"+value[0]+"<sub> "+value[1]+unit+ "</sub></p><div class='bar' style='width:"+value[1] / colormaxval*100 +"%;background-color:"+value[2]+"'></div>");
+});
+  
+  jQuery.each(shapechart, function(index, value) {
   $('.shapechart').append("<p>"+value[0]+"<sub> "+value[1]+unit+ "</sub></p><div class='bar' style='width:"+value[1] / shapemaxval*100 +"%;background-color:"+value[2]+"'></div>");
 });
 
