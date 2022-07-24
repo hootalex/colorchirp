@@ -38,6 +38,13 @@ a {
   animation: pulse 1s infinite;
 }
 
+.shapechart svg {
+max-height: 14px;
+    width: 14px;
+    display: inline-block;
+    padding-right: 5px;
+}
+
 .shape {
   display: flex;
   background-color: var(--white);
