@@ -65,7 +65,7 @@ sound.play();
   $("#play").html("Playing sound...");
   });
 
-$(".credit").html("Sound recorded by " + "<a href='"+birds[0].xenolink+"'>"+birds[0].copyright+"</a>")
+$(".credit").html("Recorded by " + "<a href='"+birds[0].xenolink+"'>"+birds[0].copyright+"</a>")
 
 $( "#submit" ).on( "click", function( event ) {
   
