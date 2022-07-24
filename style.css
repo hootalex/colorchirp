@@ -207,9 +207,8 @@ animation: reveal 2s;
 
 sub {
   transform: translate(12px, -7px);
-    display: inline-block;
+  display: inline-block;
   font-size: 1rem;
-  float: right;
 }
 
 .chart p {
