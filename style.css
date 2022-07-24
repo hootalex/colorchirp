@@ -185,14 +185,18 @@ h2 svg {
   max-width: 50px;
 }
 
-@keyframes reveal {
-  0%   { max-width: 0; }
-  100% { max-width: 100%; }
+#commonanswer svg {
+/*   animation: shape 1s;  */
 }
 
 @keyframes reveal {
   0%   { max-width: 0; }
   100% { max-width: 100%; }
+}
+
+@keyframes shape {
+  0%   { transform: rotate(-150deg); opacity: 0 }
+  100% { transform: rotate(0deg); opacity: 1 }
 }
 
 .bar {
@@ -202,8 +206,10 @@ animation: reveal 2s;
 }
 
 sub {
-  transform: translate(12px, -5px);
+  transform: translate(12px, -7px);
     display: inline-block;
+  font-size: 1rem;
+  float: right;
 }
 
 .chart p {
@@ -234,7 +240,7 @@ h1 {
 
 hr {
   border: none;
-  border-bottom: 1px solid rgba(0,0,0,.1);
+  border-bottom: 1px solid rgba(0,0,0,1);
 }
 
 li svg {
@@ -249,11 +255,16 @@ ol {
   padding: 0;
 }
 
+.chart h2 {
+  padding-top: 5px;
+}
+
 .birdheader {
   display: flex;
   justify-content: space-between;
   text-align: left;
   align-items: center;
+  padding-bottom: 20px;
 }
 
 .birdheader h2 {
