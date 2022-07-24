@@ -206,16 +206,21 @@ animation: reveal 2s;
 }
 
 sub {
-  transform: translate(12px, -7px);
-  display: inline-block;
-  font-size: 1rem;
+transform: translate(7px, -4px);
+    display: inline-block;
+    font-size: .8rem;
 }
 
-.chart p {
+.colorchart, .shapechart {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.colorchart p, .shapechart p {
   white-space: nowrap;
 }
 
-.chart .bar {
+.colorchart .bar, .shapechart .bar {
   margin-bottom: 2px;
   padding-top: 3px;
   padding-bottom: 3px;
@@ -252,10 +257,6 @@ ol {
   list-style-type: none;
     margin: 0;
   padding: 0;
-}
-
-.chart h2 {
-  padding-top: 5px;
 }
 
 .birdheader {
