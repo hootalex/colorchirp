@@ -165,6 +165,11 @@ h4 img {
   width: 50px;
 }
 
+#headerstats {
+  display: flex;
+  justify-content: space-between;
+}
+
 #commonanswer {
   display: flex;
     justify-content: space-between;
@@ -211,6 +216,7 @@ ol {
   display: flex;
   justify-content: space-between;
   text-align: left;
+  align-items: center;
 }
 
 .birdheader h2 {
@@ -232,7 +238,10 @@ li {
 }
 
 @media screen and (max-width: 600px) {
-  nav {
-    flex-direction: column;
+  .birdheader h2 {
+    font-size: 1.2rem;
+  }
+  .birdheader svg {
+    max-height: 20px;
   }
 }
