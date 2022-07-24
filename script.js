@@ -35,7 +35,7 @@ var maxval = 88
 function drawchart(){
 
 jQuery.each(chartdata, function(index, value) {
-  $('.chart').append("<p>"+value[0]+"<sub> "+value[1]+unit+ "</sub></p><div class='bar' style='width:"+value[1] / maxval*100 +"%;background-color:"+value[2]+"'></div>")
+  $('.chart').append("<h2>"+value[0]+"<sub> "+value[1]+unit+ "</sub></h2><div class='bar' style='width:"+value[1] / maxval*100 +"%;background-color:"+value[2]+"'></div>")
 });
 
 }

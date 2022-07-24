@@ -177,7 +177,8 @@ h4 img {
 }
 
 #commonanswer svg {
-  max-width: 100px;
+  width: 100px;
+  aspect-ratio: 1/1;
 }
 
 h2 svg {
@@ -189,14 +190,19 @@ h2 svg {
   100% { max-width: 100%; }
 }
 
-.chart {
+@keyframes reveal {
+  0%   { max-width: 0; }
+  100% { max-width: 100%; }
+}
+
+.bar {
 max-width: 100%;
 font-size: 15px;
 animation: reveal 2s;
 }
 
 sub {
-  transform: translate(9px, -4px);
+  transform: translate(12px, -5px);
     display: inline-block;
 }
 
@@ -206,8 +212,8 @@ sub {
 
 .chart .bar {
   margin-bottom: 2px;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 3px;
+  padding-bottom: 3px;
   border-radius: 6px;
 }
 
@@ -273,6 +279,7 @@ li {
     font-size: 1.2rem;
   }
   .birdheader svg {
-    max-height: 20px;
+    height: 20px;
+    margin-right: -2px;
   }
 }
