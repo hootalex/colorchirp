@@ -39,8 +39,9 @@ a {
 }
 
 .shapechart svg {
-max-height: 14px;
-    width: 14px;
+  padding-top: 5px;
+max-height: 25px;
+    width: 25px;
     display: inline-block;
     padding-right: 5px;
 }

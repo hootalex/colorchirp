@@ -17,55 +17,53 @@ $( document ).ready(function() {
     
 var colorchart = [
 
-["Red", "6", "#f4221e"],
+["Red", "6", "var(--red)"],
 
-["Orange", "21" , "#ff6700"],
+["Orange", "21" , "var(--orange)"],
 
-["Yellow", "23" , "#fd8c39"],
+["Yellow", "23" , "var(--yellow)"],
 
-["Green", "25", "#5baa09"],
+["Green", "25", "var(--green)"],
 
-["Light blue", "72", "#479edb"],
+["Light blue", "72", "var(--lightblue)"],
 
-["Blue", "88", "#093ac6"],
+["Blue", "88", "var(--blue)"],
 
-["Purple", "77", "#746ad0"],
+["Purple", "77", "var(--purple)"],
 
-["Pink", "5", "#f45c87"],
+["Pink", "5", "var(--pink)"],
 
-["Brown", "80", "#89582e"],
+["Brown", "80", "var(--brown)"],
 
-["Black", "80", "#000000"]
+["Black", "80", "var(--black)"]
 
 ];
   
-var scolor = "#479edb"
-  
 var shapechart = [
 
-["Circle", "51", scolor, circle],
+["Circle", "51", "var(--lightblue)", circle],
 
-["Half circle", "105" , scolor, halfcircle],
+["Half circle", "105" , "var(--red)", halfcircle],
 
-["Triangle", "15" , scolor],
+["Triangle", "15" , "var(--yellow)", triangle],
 
-["Square", "3", scolor],
+["Square", "3", "var(--blue)", square],
 
-["Diamond", "7", scolor],
+["Diamond", "7", "var(--blue)", diamond],
 
-["Rhombus", "24", scolor],
+["Rhombus", "24", "var(--blue)", rhombus],
 
-["Bouba", "22", scolor, bouba],
+["Bouba", "22", "var(--blue)", bouba],
 
-["Kiki", "6", scolor, kiki],
+["Kiki", "6", "var(--blue)", kiki],
 
-["Loop", "187", scolor, loop],
+["Loop", "187", "var(--blue)", loop],
 
-["Line", "3", scolor, line],
+["Line", "3", "var(--blue)", line],
   
-["Wave", "54", scolor, wave],
+["Wave", "54", "var(--blue)", wave],
   
-["Zigzag", "3", scolor, zigzag],
+["Zigzag", "3", "var(--blue)", zigzag],
 
 ];
 
