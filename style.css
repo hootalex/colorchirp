@@ -178,6 +178,10 @@ hr {
   border: none;
 }
 
+li svg {
+  max-width: 30px;
+}
+
 ol {
   column-count: 3;
   list-style-type: none;
@@ -187,7 +191,7 @@ ol {
 
 li {
   border-bottom: 1px solid rgba(0,0,0,.1);
-  padding: 15px;
+  padding: 10px;
   margin: 0;
 }
 
