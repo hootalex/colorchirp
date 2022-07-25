@@ -76,16 +76,24 @@ var colormaxval = 88
 
 var shapemaxval = 187
 
+jQuery.each(colorchart, function(index, value) {
+  colorcharttotal = colorcharttotal+Number(value[1])
+  });
+
 function drawchart(){
 
 jQuery.each(colorchart, function(index, value) {
-  $('.colorchart').append("<p>"+value[0]+"<sub> "+value[1]+unit+ "</sub></p><div class='bar' style='width:"+value[1] / colormaxval*100 +"%;background-color:"+value[2]+"'></div>");
+  
+  // colorcharttotal = colorcharttotal+Number(value[1])
+  // console.log((6/colorcharttotal*100).toFixed(1))
+  
+  $('.colorchart').append("<p>"+value[0]+"<sub> "+value[1]+unit+"/" + (6/colorcharttotal*100).toFixed(1)+ "%</sub></p><div class='bar' style='width:"+value[1] / colormaxval*100 +"%;background-color:"+value[2]+"'></div>");
 });
   
   jQuery.each(shapechart, function(index, value) {
 
     shapecharttotal = shapecharttotal+Number(value[1])
-    console.log(shapecharttotal)
+    // console.log(shapecharttotal)
     
   $('.shapechart').append("<p class='"+value[0]+"'>"+value[3]+value[0]+"<sub> "+value[1]+unit+ "</sub></p><div class='bar' style='width:"+value[1] / shapemaxval*100 +"%;background-color:"+value[2]+"'></div>");
 });
