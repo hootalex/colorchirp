@@ -36,6 +36,17 @@
   text-align: center;
 }
 
+.editorial {
+display: inline-block;
+  padding: 10px;
+  max-width: 500px;
+  border: 1px solid var(--black);
+}
+
+.editorial::before {
+  content: "Editorial: ";
+}
+
 a {
   color: var(--blue);
   text-decoration: none;
@@ -58,6 +69,10 @@ max-height: 25px;
   background-color: var(--lightblue);
   color: var(--color-bg);
   border: none;
+}
+
+#play:hover {
+  opacity: .75;
 }
 
 .shape {
@@ -315,7 +330,7 @@ h1 {
 
 hr {
   border: none;
-  border-bottom: 1px solid rgba(0,0,0,.15);
+  border-bottom: 1px solid rgba(0,0,0,1);
 }
 
 li svg {
