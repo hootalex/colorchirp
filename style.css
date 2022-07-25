@@ -233,6 +233,34 @@ animation: reveal 2s;
   fill: var(--purple)!important;
 }
 
+.Rhombus svg {
+  fill: var(--red)!important;
+}
+
+.Bouba svg {
+  fill: var(--lightblue)!important;
+}
+
+.Kiki svg {
+  fill: var(--yellow)!important;
+}
+
+.Loop svg {
+  fill: var(--blue)!important;
+}
+
+.Line svg {
+  fill: var(--red)!important;
+}
+
+.Wave svg {
+  fill: var(--lightblue)!important;
+}
+
+.Zigzag svg {
+  fill: var(--black)!important;
+}
+
 sub {
 transform: translate(7px, -4px);
     display: inline-block;
