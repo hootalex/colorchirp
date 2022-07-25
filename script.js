@@ -117,7 +117,7 @@ jQuery.each(colorchart, function(index, value) {
 
 drawchart(); 
   
-  var bird = birds[0].name
+var bird = birds[0].name
 var color = null
 var shape = null
 
@@ -128,6 +128,9 @@ var sound = new Howl({
     $("#play").removeClass("disable")
   }
 });
+  
+  $(".credit").html(birds[0].name + " recorded by " + "<a href='"+birds[0].xenolink+"'>"+birds[0].copyright+"</a>")
+
 
 $( "#play" ).on( "click", function( event ) {
 sound.play();

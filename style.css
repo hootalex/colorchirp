@@ -105,7 +105,9 @@ max-height: 25px;
 }
 
 .credit {
-  font-size: .9rem;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: .8rem;
+  color: var(--neutral3);
 }
 
 footer {
