@@ -36,7 +36,7 @@
 }
 
 .editorial {
-  font-family: 'Space Mono', monospace;
+  font-family: 'IBM Plex Mono', monospace;
 display: inline-block;
   padding: 10px;
   max-width: 400px;
@@ -293,13 +293,13 @@ animation: reveal 2s;
 }
 
 #headerstats {
-  font-family: 'Space Mono', monospace;
+  font-family: 'IBM Plex Mono', monospace;
   font-size: .8rem;
   color: var(--neutral3);
 }
 
 sub {
-  font-family: 'Space Mono', monospace;
+  font-family: 'IBM Plex Mono', monospace;
 transform: translate(7px, -4px);
     display: inline-block;
     font-size: .8rem;
