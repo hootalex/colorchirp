@@ -118,7 +118,8 @@ html, body {
   background-color: var(--color-bg);
   color: var(--black);
   text-align: left; 
-  font-family: "Nay Aug", sans-serif;
+/*   font-family: "Nay Aug", sans-serif; */
+  font-family: Futura, Helvetica, Arial, sans-serif;
 -webkit-font-smoothing: antialiased;
 -moz-osx-font-smoothing: grayscale;
   margin-bottom: 5vh;
