@@ -54,6 +54,12 @@ max-height: 25px;
     padding-right: 5px;
 }
 
+#play {
+  background-color: var(--lightblue);
+  color: var(--color-bg);
+  border: none;
+}
+
 .shape {
   display: flex;
   background-color: var(--white);
@@ -118,8 +124,7 @@ html, body {
   background-color: var(--color-bg);
   color: var(--black);
   text-align: left; 
-/*   font-family: "Nay Aug", sans-serif; */
-  font-family: Futura, Helvetica, Arial, sans-serif;
+  font-family: "Nay Aug", sans-serif;
 -webkit-font-smoothing: antialiased;
 -moz-osx-font-smoothing: grayscale;
   margin-bottom: 5vh;
@@ -144,10 +149,9 @@ h4 img {
 }
 
 .container {
-  max-width: 700px;
+  max-width: 650px;
   margin: auto;
-  border-top: 5px solid var(--black);
-  padding-top: 30px;
+  padding: 30px 15px 15px 15px;
 }
 
 .colorselect .color {
@@ -196,6 +200,8 @@ h4 img {
 #winner {
   width: 100px;
   aspect-ratio: 1/1;
+  border: 1px solid rgba(0,0,0,1);
+  border-radius: 10px;
 }
 
 h2 svg {
