@@ -36,10 +36,12 @@
 }
 
 .editorial {
+  font-family: 'Space Mono', monospace;
 display: inline-block;
   padding: 10px;
-  max-width: 500px;
+  max-width: 400px;
   background-color: #ffbb004a;
+  font-size: .8rem;
 }
 
 .editorial::before {
@@ -290,11 +292,18 @@ animation: reveal 2s;
   fill: var(--neutral3)!important;
 }
 
+#headerstats {
+  font-family: 'Space Mono', monospace;
+  font-size: .8rem;
+  color: var(--neutral3);
+}
+
 sub {
   font-family: 'Space Mono', monospace;
 transform: translate(7px, -4px);
     display: inline-block;
     font-size: .8rem;
+  color: var(--neutral3);
 }
 
 .colorchart, .shapechart {
@@ -312,6 +321,14 @@ transform: translate(7px, -4px);
   padding-top: 3px;
   padding-bottom: 3px;
   border-radius: 6px;
+}
+
+.shapechart .bar {
+  margin-bottom: 8px;
+}
+
+.colorchart .bar {
+  margin-bottom: 5px;
 }
 
 p {
@@ -332,7 +349,7 @@ h1 {
 
 hr {
   border: none;
-  border-bottom: 1px solid rgba(0,0,0,1);
+  border-bottom: 1px solid var(--neutral1);
 }
 
 li svg {
@@ -358,7 +375,7 @@ display: flex;
     top: 0;
     padding-top: 20px;
     z-index: 9;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid var(--neutral1);
     margin-bottom: 10px;
 }
 
