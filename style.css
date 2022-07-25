@@ -215,8 +215,8 @@ h4 img {
 #winner {
   width: 100px;
   aspect-ratio: 1/1;
-  border: 1px solid rgba(0,0,0,1);
-  border-radius: 10px;
+  background-color: var(--white);
+  border-radius: 50%;
 }
 
 h2 svg {
