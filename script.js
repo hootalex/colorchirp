@@ -17,7 +17,10 @@ var shapecharttotal = 0
 $( document ).ready(function() {
   
   $("#winner").html(loop)
-  $("#winner svg").htcml(loop)
+  $("#winner svg").css("fill","var(--blue)")
+  
+  $("#wincolor").html("Blue")
+  $("#winshape").html("loop")
 
 //All you have to do is enter the chart data in the proper order, and specific the max value and unit of measurement. 
     
