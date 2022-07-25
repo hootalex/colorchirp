@@ -43,27 +43,27 @@ var shapechart = [
 
 ["Circle", "51", "var(--lightblue)", circle],
 
-["Half circle", "105" , "var(--red)", halfcircle],
+["Half-circle", "105" , "var(--red)", halfcircle],
 
 ["Triangle", "15" , "var(--yellow)", triangle],
 
-["Square", "3", "var(--blue)", square],
+["Square", "3", "var(--green)", square],
 
-["Diamond", "7", "var(--blue)", diamond],
+["Diamond", "7", "var(--purple)", diamond],
 
-["Rhombus", "24", "var(--blue)", rhombus],
+["Rhombus", "24", "var(--red)", rhombus],
 
-["Bouba", "22", "var(--blue)", bouba],
+["Bouba", "22", "var(--lightblue)", bouba],
 
-["Kiki", "6", "var(--blue)", kiki],
+["Kiki", "6", "var(--yellow)", kiki],
 
 ["Loop", "187", "var(--blue)", loop],
 
-["Line", "3", "var(--blue)", line],
+["Line", "3", "var(--red)", line],
   
-["Wave", "54", "var(--blue)", wave],
+["Wave", "54", "var(--lightblue)", wave],
   
-["Zigzag", "3", "var(--blue)", zigzag],
+["Zigzag", "3", "var(--black)", zigzag],
 
 ];
 
@@ -80,7 +80,7 @@ jQuery.each(colorchart, function(index, value) {
 });
   
   jQuery.each(shapechart, function(index, value) {
-  $('.shapechart').append("<p>"+value[3]+value[0]+"<sub> "+value[1]+unit+ "</sub></p><div class='bar' style='width:"+value[1] / shapemaxval*100 +"%;background-color:"+value[2]+"'></div>");
+  $('.shapechart').append("<p class='"+value[0]+"'>"+value[3]+value[0]+"<sub> "+value[1]+unit+ "</sub></p><div class='bar' style='width:"+value[1] / shapemaxval*100 +"%;background-color:"+value[2]+"'></div>");
 });
 
 }

@@ -213,6 +213,26 @@ font-size: 15px;
 animation: reveal 2s;
 }
 
+.Circle svg {
+  fill: var(--lightblue)!important;
+}
+
+.Half-circle svg {
+  fill: var(--red)!important;
+}
+
+.Triangle svg {
+  fill: var(--yellow)!important;
+}
+
+.Square svg {
+  fill: var(--green)!important;
+}
+
+.Diamond svg {
+  fill: var(--purple)!important;
+}
+
 sub {
 transform: translate(7px, -4px);
     display: inline-block;
