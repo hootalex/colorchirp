@@ -18,7 +18,6 @@ $( document ).ready(function() {
   $("#wincolor").html("Blue")
   $("#winshape").html("loop")
 
-//All you have to do is enter the chart data in the proper order, and specific the max value and unit of measurement. 
     
 var colorchart = [
 
@@ -74,19 +73,33 @@ var shapechart = [
 
 var unit = "";
 
-var colormaxval = 113
+// var colormaxval = 113
 
-var shapemaxval = 238
+// var shapemaxval = 238
+  
+var colormaxval = 0
+
+var shapemaxval = 0
 
 jQuery.each(colorchart, function(index, value) {
   colorcharttotal = colorcharttotal+Number(value[1])
+  
+  if (colormaxval < Number(value[1])) {
+    colormaxval = Number(value[1])
+  }
+  
   });
   
   jQuery.each(shapechart, function(index, value) {
   shapecharttotal = shapecharttotal+Number(value[1])
+    
+      if (shapemaxval < Number(value[1])) {
+    shapemaxval = Number(value[1])
+  }
+    
   });
   
-  console.log(shapecharttotal)
+  // console.log(shapecharttotal)
 
 function drawchart(){
 
