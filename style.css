@@ -212,6 +212,11 @@ h4 img {
   justify-content: space-between;
 }
 
+@keyframes appear {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+
 #commonanswer {
   display: flex;
     justify-content: space-between;
@@ -222,7 +227,7 @@ h4 img {
   width: 100px;
   aspect-ratio: 1/1;
   background-color: var(--white);
-  border-radius: 50%;
+  border-radius: 10px;
 }
 
 h1 svg {
@@ -309,6 +314,10 @@ transform: translate(7px, -4px);
     display: inline-block;
     font-size: .8rem;
   color: var(--neutral3);
+  opacity: 0;
+  animation: appear 1s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
 }
 
 .colorchart, .shapechart {
