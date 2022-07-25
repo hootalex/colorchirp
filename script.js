@@ -74,9 +74,9 @@ var shapechart = [
 
 var unit = "";
 
-var colormaxval = 88
+var colormaxval = 113
 
-var shapemaxval = 187
+var shapemaxval = 238
 
 jQuery.each(colorchart, function(index, value) {
   colorcharttotal = colorcharttotal+Number(value[1])

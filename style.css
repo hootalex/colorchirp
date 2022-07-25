@@ -20,7 +20,6 @@
   font-family: "Nay Aug";
   src: url("https://cdn.glitch.global/cedc551f-8766-4635-b71b-ca089ffe676c/NayAugp-Regular.ttf?v=1646230944800") format("truetype")
 }
-
 ::selection {
   background: #fdca39bd; /* WebKit/Blink Browsers */
 }
@@ -292,6 +291,7 @@ animation: reveal 2s;
 }
 
 sub {
+  font-family: 'Space Mono', monospace;
 transform: translate(7px, -4px);
     display: inline-block;
     font-size: .8rem;
@@ -300,6 +300,7 @@ transform: translate(7px, -4px);
 .colorchart, .shapechart {
   padding-top: 10px;
   padding-bottom: 10px;
+  min-height: 200px;
 }
 
 .colorchart p, .shapechart p {
