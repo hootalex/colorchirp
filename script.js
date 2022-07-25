@@ -57,51 +57,51 @@ var colorchart = [
 
 ["Red", "6", "var(--red)"],
 
-["Orange", "21" , "var(--orange)"],
+["Orange", "26" , "var(--orange)"],
 
-["Yellow", "23" , "var(--yellow)"],
+["Yellow", "27" , "var(--yellow)"],
 
-["Green", "25", "var(--green)"],
+["Green", "35", "var(--green)"],
 
-["Light blue", "72", "var(--lightblue)"],
+["Light blue", "80", "var(--lightblue)"],
 
-["Blue", "88", "var(--blue)"],
+["Blue", "104", "var(--blue)"],
 
-["Purple", "77", "var(--purple)"],
+["Purple", "89", "var(--purple)"],
 
-["Pink", "5", "var(--pink)"],
+["Pink", "7", "var(--pink)"],
 
-["Brown", "80", "var(--brown)"],
+["Brown", "92", "var(--brown)"],
 
-["Black", "80", "var(--black)"]
+["Black", "85", "var(--black)"]
 
 ];
   
 var shapechart = [
 
-["Circle", "51", "var(--neutral1)", circle],
+["Circle", "57", "var(--neutral1)", circle],
 
-["Half-circle", "105" , "var(--neutral2)", halfcircle],
+["Half-circle", "117" , "var(--neutral2)", halfcircle],
 
-["Triangle", "15" , "var(--neutral3)", triangle],
+["Triangle", "17" , "var(--neutral3)", triangle],
 
 ["Square", "3", "var(--neutral1)", square],
 
-["Diamond", "7", "var(--neutral2)", diamond],
+["Diamond", "9", "var(--neutral2)", diamond],
 
-["Rhombus", "24", "var(--neutral3)", rhombus],
+["Rhombus", "27", "var(--neutral3)", rhombus],
 
-["Bouba", "22", "var(--neutral1)", bouba],
+["Bouba", "24", "var(--neutral1)", bouba],
 
-["Kiki", "6", "var(--neutral2)", kiki],
+["Kiki", "7", "var(--neutral2)", kiki],
 
-["Loop", "187", "var(--neutral3)", loop],
+["Loop", "218", "var(--neutral3)", loop],
 
 ["Line", "3", "var(--neutral1)", line],
   
-["Wave", "54", "var(--neutral2)", wave],
+["Wave", "67", "var(--neutral2)", wave],
   
-["Zigzag", "3", "var(--neutral3)", zigzag],
+["Zigzag", "4", "var(--neutral3)", zigzag],
 
 ];
 
