@@ -44,11 +44,11 @@ var colorchart = [
   
 var shapechart = [
 
-["Circle", "51", "var(--lightblue)", circle],
+["Circle", "51", "#95a0a7", circle],
 
-["Half-circle", "105" , "var(--red)", halfcircle],
+["Half-circle", "105" , "#6c7378", halfcircle],
 
-["Triangle", "15" , "var(--yellow)", triangle],
+["Triangle", "15" , "#262829", triangle],
 
 ["Square", "3", "var(--green)", square],
 
@@ -79,6 +79,12 @@ var shapemaxval = 187
 jQuery.each(colorchart, function(index, value) {
   colorcharttotal = colorcharttotal+Number(value[1])
   });
+  
+  jQuery.each(shapechart, function(index, value) {
+  shapecharttotal = shapecharttotal+Number(value[1])
+  });
+  
+  console.log(shapecharttotal)
 
 function drawchart(){
 
@@ -87,15 +93,14 @@ jQuery.each(colorchart, function(index, value) {
   // colorcharttotal = colorcharttotal+Number(value[1])
   // console.log((6/colorcharttotal*100).toFixed(1))
   
-  $('.colorchart').append("<p>"+value[0]+"<sub> "+value[1]+unit+"/" + (6/colorcharttotal*100).toFixed(1)+ "%</sub></p><div class='bar' style='width:"+value[1] / colormaxval*100 +"%;background-color:"+value[2]+"'></div>");
+  $('.colorchart').append("<p>"+value[0]+"<sub> "+value[1]+unit+" (" + (value[1]/colorcharttotal*100).toFixed(1)+ "%)</sub></p><div class='bar' style='width:"+value[1] / colormaxval*100 +"%;background-color:"+value[2]+"'></div>");
 });
   
   jQuery.each(shapechart, function(index, value) {
 
-    shapecharttotal = shapecharttotal+Number(value[1])
     // console.log(shapecharttotal)
     
-  $('.shapechart').append("<p class='"+value[0]+"'>"+value[3]+value[0]+"<sub> "+value[1]+unit+ "</sub></p><div class='bar' style='width:"+value[1] / shapemaxval*100 +"%;background-color:"+value[2]+"'></div>");
+  $('.shapechart').append("<p class='"+value[0]+"'>"+value[3]+value[0]+"<sub> "+value[1]+unit+" ("+ (value[1]/shapecharttotal*100).toFixed(1)+ "%) </sub></p><div class='bar' style='width:"+value[1] / shapemaxval*100 +"%;background-color:"+value[2]+"'></div>");
 });
 
 }

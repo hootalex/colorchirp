@@ -11,6 +11,10 @@
   --pink: #f45c87;
   --black: black;
   --white: white;
+  
+  --neutral1: #95a0a7;
+  --neutral2: #6c7378;
+  --neutral3: #262829;
 }
 
 @font-face {
@@ -214,19 +218,19 @@ animation: reveal 2s;
 }
 
 .Circle svg {
-  fill: var(--lightblue)!important;
+  fill: var(--neutral1)!important;
 }
 
 .Half-circle svg {
-  fill: var(--red)!important;
+  fill: var(--neutral2)!important;
 }
 
 .Triangle svg {
-  fill: var(--yellow)!important;
+  fill: var(--neutral3)!important;
 }
 
 .Square svg {
-  fill: var(--green)!important;
+  fill: var(--neutral1)!important;
 }
 
 .Diamond svg {
