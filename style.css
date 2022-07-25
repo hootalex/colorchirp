@@ -12,9 +12,9 @@
   --black: black;
   --white: white;
   
-  --neutral1: #95a0a7;
-  --neutral2: #6c7378;
-  --neutral3: #262829;
+  --neutral1: #470b0b4d;
+  --neutral2: #1320678f;
+  --neutral3: #000000c2;
 }
 
 @font-face {
@@ -188,7 +188,7 @@ h4 img {
   align-items: center;
 }
 
-#commonanswer svg {
+#winner {
   width: 100px;
   aspect-ratio: 1/1;
 }
@@ -234,35 +234,35 @@ animation: reveal 2s;
 }
 
 .Diamond svg {
-  fill: var(--purple)!important;
+  fill: var(--neutral2)!important;
 }
 
 .Rhombus svg {
-  fill: var(--red)!important;
+  fill: var(--neutral3)!important;
 }
 
 .Bouba svg {
-  fill: var(--lightblue)!important;
+  fill: var(--neutral1)!important;
 }
 
 .Kiki svg {
-  fill: var(--yellow)!important;
+  fill: var(--neutral2)!important;
 }
 
 .Loop svg {
-  fill: var(--blue)!important;
+  fill: var(--neutral3)!important;
 }
 
 .Line svg {
-  fill: var(--red)!important;
+  fill: var(--neutral1)!important;
 }
 
 .Wave svg {
-  fill: var(--lightblue)!important;
+  fill: var(--neutral2)!important;
 }
 
 .Zigzag svg {
-  fill: var(--black)!important;
+  fill: var(--neutral3)!important;
 }
 
 sub {

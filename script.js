@@ -15,6 +15,9 @@ var colorcharttotal = 0
 var shapecharttotal = 0
 
 $( document ).ready(function() {
+  
+  $("#winner").html(loop)
+  $("#winner svg").htcml(loop)
 
 //All you have to do is enter the chart data in the proper order, and specific the max value and unit of measurement. 
     
@@ -44,29 +47,29 @@ var colorchart = [
   
 var shapechart = [
 
-["Circle", "51", "#95a0a7", circle],
+["Circle", "51", "var(--neutral1)", circle],
 
-["Half-circle", "105" , "#6c7378", halfcircle],
+["Half-circle", "105" , "var(--neutral2)", halfcircle],
 
-["Triangle", "15" , "#262829", triangle],
+["Triangle", "15" , "var(--neutral3)", triangle],
 
-["Square", "3", "var(--green)", square],
+["Square", "3", "var(--neutral1)", square],
 
-["Diamond", "7", "var(--purple)", diamond],
+["Diamond", "7", "var(--neutral2)", diamond],
 
-["Rhombus", "24", "var(--red)", rhombus],
+["Rhombus", "24", "var(--neutral3)", rhombus],
 
-["Bouba", "22", "var(--lightblue)", bouba],
+["Bouba", "22", "var(--neutral1)", bouba],
 
-["Kiki", "6", "var(--yellow)", kiki],
+["Kiki", "6", "var(--neutral2)", kiki],
 
-["Loop", "187", "var(--blue)", loop],
+["Loop", "187", "var(--neutral3)", loop],
 
-["Line", "3", "var(--red)", line],
+["Line", "3", "var(--neutral1)", line],
   
-["Wave", "54", "var(--lightblue)", wave],
+["Wave", "54", "var(--neutral2)", wave],
   
-["Zigzag", "3", "var(--black)", zigzag],
+["Zigzag", "3", "var(--neutral3)", zigzag],
 
 ];
 
