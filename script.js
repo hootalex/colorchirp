@@ -1,3 +1,10 @@
+var responses = 719
+var topcolor = "Brown"
+var topshape = "loop"
+
+$("#winner").html(loop)
+$("#winner svg").css("fill","var(--brown)")
+
 const birds =  [
    {
     "name": "Common Loon",
@@ -12,62 +19,60 @@ var shapecharttotal = 0
 
 $( document ).ready(function() {
   
-  $("#winner").html(loop)
-  $("#winner svg").css("fill","var(--blue)")
-  
-  $("#wincolor").html("Blue")
-  $("#winshape").html("loop")
+  $("#wincolor").html(topcolor)
+  $("#winshape").html(topshape)
+  $("#responses").html(responses)
 
     
 var colorchart = [
 
 ["Red", "8", "var(--red)"],
 
-["Orange", "27" , "var(--orange)"],
+["Orange", "35" , "var(--orange)"],
 
-["Yellow", "30" , "var(--yellow)"],
+["Yellow", "33" , "var(--yellow)"],
 
-["Green", "36", "var(--green)"],
+["Green", "44", "var(--green)"],
 
-["Light blue", "88", "var(--lightblue)"],
+["Light blue", "99", "var(--lightblue)"],
 
-["Blue", "113", "var(--blue)"],
+["Blue", "127", "var(--blue)"],
 
-["Purple", "105", "var(--purple)"],
+["Purple", "124", "var(--purple)"],
 
-["Pink", "7", "var(--pink)"],
+["Pink", "9", "var(--pink)"],
 
-["Brown", "103", "var(--brown)"],
+["Brown", "135", "var(--brown)"],
 
-["Black", "94", "var(--black)"]
+["Black", "97", "var(--black)"]
 
 ];
   
 var shapechart = [
 
-["Circle", "62", "var(--neutral1)", circle],
+["Circle", "71", "var(--neutral1)", circle],
 
-["Half-circle", "136" , "var(--neutral2)", halfcircle],
+["Half-circle", "157" , "var(--neutral2)", halfcircle],
 
-["Triangle", "19" , "var(--neutral3)", triangle],
+["Triangle", "25" , "var(--neutral3)", triangle],
 
-["Square", "3", "var(--neutral1)", square],
+["Square", "5", "var(--neutral1)", square],
 
-["Diamond", "9", "var(--neutral2)", diamond],
+["Diamond", "11", "var(--neutral2)", diamond],
 
-["Rhombus", "32", "var(--neutral3)", rhombus],
+["Rhombus", "37", "var(--neutral3)", rhombus],
 
-["Bouba", "26", "var(--neutral1)", bouba],
+["Bouba", "31", "var(--neutral1)", bouba],
 
-["Kiki", "7", "var(--neutral2)", kiki],
+["Kiki", "10", "var(--neutral2)", kiki],
 
-["Loop", "238", "var(--neutral3)", loop],
+["Loop", "271", "var(--neutral3)", loop],
 
 ["Line", "3", "var(--neutral1)", line],
   
-["Wave", "75", "var(--neutral2)", wave],
+["Wave", "89", "var(--neutral2)", wave],
   
-["Zigzag", "4", "var(--neutral3)", zigzag],
+["Zigzag", "5", "var(--neutral3)", zigzag],
 
 ];
 
