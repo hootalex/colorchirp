@@ -129,7 +129,7 @@ var sound = new Howl({
   }
 });
   
-  $(".credit").html(birds[0].name + " recorded by " + "<a href='"+birds[0].xenolink+"'>"+birds[0].copyright+"</a>")
+  $(".credit").append(birds[0].name + " icon by <a href='https://alex.gd'>Alex Tomlinson</a>. Sound recorded by " + "<a href='"+birds[0].xenolink+"'>"+birds[0].copyright+"</a>")
 
 
 $( "#play" ).on( "click", function( event ) {
