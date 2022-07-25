@@ -126,15 +126,12 @@ var sound = new Howl({
   html5: true,
   onend: function() {
     $("#play").removeClass("disable")
-    $("#play").html("Play");
-    $(".screen").removeClass("locked");
   }
 });
 
 $( "#play" ).on( "click", function( event ) {
 sound.play();
   $("#play").addClass("disable");
-  $("#play").html("Playing...");
   });
 
 });
