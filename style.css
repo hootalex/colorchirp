@@ -20,6 +20,7 @@
   font-family: "Nay Aug";
   src: url("https://cdn.glitch.global/cedc551f-8766-4635-b71b-ca089ffe676c/NayAugp-Regular.ttf?v=1646230944800") format("truetype")
 }
+
 ::selection {
   background: #fdca39bd; /* WebKit/Blink Browsers */
 }
@@ -220,7 +221,7 @@ h4 img {
   border-radius: 50%;
 }
 
-h2 svg {
+h1 svg {
   max-width: 50px;
 }
 
@@ -292,7 +293,7 @@ animation: reveal 2s;
   fill: var(--neutral3)!important;
 }
 
-#headerstats {
+#headerstats, #winningresult {
   font-family: 'IBM Plex Mono', monospace;
   font-size: .8rem;
   color: var(--neutral3);
@@ -379,10 +380,16 @@ display: flex;
     margin-bottom: 10px;
 }
 
-.birdheader h2 {
+.birdheader h1 {
+  color: var(--black);
+  font-weight: 600;
   font-size: 1.8rem;
   width: 100%;
   letter-spacing: -1px;
+}
+
+h2 {
+  color: var(--neutral3);
 }
 
 .birdheader svg {
@@ -399,7 +406,7 @@ li {
 }
 
 @media screen and (max-width: 600px) {
-  .birdheader h2 {
+  .birdheader h1 {
     font-size: 1.2rem;
     letter-spacing: 0;
   }
