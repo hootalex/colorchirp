@@ -67,8 +67,12 @@ max-height: 25px;
     padding-right: 5px;
 }
 
+.birdheader svg {
+/*   fill: var(--neutral2); */
+}
+
 #play {
-  background-color: var(--black);
+  background-color: var(--lightblue);
   color: var(--color-bg);
   border: none;
 }
@@ -222,7 +226,7 @@ h4 img {
 }
 
 h1 svg {
-  max-width: 50px;
+  max-width: 40px;
 }
 
 #commonanswer svg {
@@ -382,13 +386,13 @@ display: flex;
 
 .birdheader h1 {
   color: var(--black);
-  font-weight: 600;
   font-size: 1.8rem;
   width: 100%;
   letter-spacing: -1px;
 }
 
 h2 {
+  font-size: 1.4rem;
   color: var(--neutral3);
 }
 
@@ -408,15 +412,15 @@ li {
 @media screen and (max-width: 600px) {
   .birdheader h1 {
     font-size: 1.2rem;
-    letter-spacing: 0;
+    letter-spacing: -.3px;
   }
   .birdheader svg {
     height: 20px;
     margin-right: -2px;
   }
   
-  h1, h2, h3, h4 {
-  letter-spacing: 0;
+  h2, h3, h4 {
+  letter-spacing: -.5px;
 }
   
 }
