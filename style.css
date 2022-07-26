@@ -26,15 +26,15 @@
 }
 
 #colorchart, #shapechart {
-  width: 45%;
+  width: 50%;
 }
 
 #colorchart {
-  padding-right: 10px;
+  padding-right: 12px;
 }
 
 #shapechart {
-  padding-left: 10px;
+  padding-left: 12px;
 }
 
 #colorchart .bar {
@@ -458,6 +458,18 @@ li {
     font-size: 1.2rem;
     letter-spacing: -.3px;
   }
+  
+  #colorchart {
+  padding-right: 0;
+    border-right: none;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    margin-bottom: 12px;
+}
+
+#shapechart {
+  padding-left: 0;
+}
+  
   .birdheader svg {
     height: 20px;
     margin-right: -2px;

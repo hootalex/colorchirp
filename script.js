@@ -1,4 +1,4 @@
-var responses = 719
+var responses = 796
 var topcolor = "Brown"
 var topshape = "loop"
 
@@ -28,11 +28,11 @@ var colorchart = [
 
 ["Red", "8", "var(--red)"],
 
-["Orange", "35" , "var(--orange)"],
+["Orange", "38" , "var(--orange)"],
 
 ["Yellow", "33" , "var(--yellow)"],
 
-["Green", "44", "var(--green)"],
+["Green", "45", "var(--green)"],
 
 ["Light blue", "99", "var(--lightblue)"],
 
@@ -42,9 +42,9 @@ var colorchart = [
 
 ["Pink", "9", "var(--pink)"],
 
-["Brown", "135", "var(--brown)"],
+["Brown", "152", "var(--brown)"],
 
-["Black", "97", "var(--black)"]
+["Black", "111", "var(--black)"]
 
 ];
   
