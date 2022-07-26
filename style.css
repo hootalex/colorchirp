@@ -125,10 +125,16 @@ max-height: 25px;
   margin: auto;
 }
 
-.credit {
+.credit, .googlesheet {
   font-family: 'IBM Plex Mono', monospace;
   font-size: .8rem;
   color: var(--neutral3);
+}
+
+.googlesheet {
+  border: 1px solid rgba(0,0,0,.1);
+  display: inline;
+  padding: 5px;
 }
 
 footer {
