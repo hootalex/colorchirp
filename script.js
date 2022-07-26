@@ -30,17 +30,17 @@ var colorchart = [
 
 ["Orange", "38" , "var(--orange)"],
 
-["Yellow", "33" , "var(--yellow)"],
+["Yellow", "38" , "var(--yellow)"],
 
 ["Green", "45", "var(--green)"],
 
-["Light blue", "99", "var(--lightblue)"],
+["Light blue", "108", "var(--lightblue)"],
 
-["Blue", "127", "var(--blue)"],
+["Blue", "142", "var(--blue)"],
 
-["Purple", "124", "var(--purple)"],
+["Purple", "135", "var(--purple)"],
 
-["Pink", "9", "var(--pink)"],
+["Pink", "11", "var(--pink)"],
 
 ["Brown", "152", "var(--brown)"],
 
@@ -50,27 +50,27 @@ var colorchart = [
   
 var shapechart = [
 
-["Circle", "71", "var(--neutral1)", circle],
+["Circle", "78", "var(--neutral1)", circle],
 
-["Half-circle", "157" , "var(--neutral2)", halfcircle],
+["Half-circle", "178" , "var(--neutral2)", halfcircle],
 
-["Triangle", "25" , "var(--neutral3)", triangle],
+["Triangle", "27" , "var(--neutral3)", triangle],
 
-["Square", "5", "var(--neutral1)", square],
+["Square", "6", "var(--neutral1)", square],
 
-["Diamond", "11", "var(--neutral2)", diamond],
+["Diamond", "15", "var(--neutral2)", diamond],
 
-["Rhombus", "37", "var(--neutral3)", rhombus],
+["Rhombus", "42", "var(--neutral3)", rhombus],
 
-["Bouba", "31", "var(--neutral1)", bouba],
+["Bouba", "32", "var(--neutral1)", bouba],
 
-["Kiki", "10", "var(--neutral2)", kiki],
+["Kiki", "14", "var(--neutral2)", kiki],
 
-["Loop", "271", "var(--neutral3)", loop],
+["Loop", "294", "var(--neutral3)", loop],
 
 ["Line", "3", "var(--neutral1)", line],
   
-["Wave", "89", "var(--neutral2)", wave],
+["Wave", "99", "var(--neutral2)", wave],
   
 ["Zigzag", "5", "var(--neutral3)", zigzag],
 
