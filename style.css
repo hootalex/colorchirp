@@ -28,10 +28,6 @@ iframe {
     border-left: 1px solid black!important;
 }
 
-#play img {
-  width: 20px;
-}
-
 .birdcard {
   width: 135px;
   position: relative;
@@ -165,7 +161,7 @@ a {
 
 .disable {
   pointer-events: none;
-  animation: pulse 1s infinite;
+  animation: pulse .5s linear infinite;
 }
 
 .shapechart svg {
@@ -181,13 +177,31 @@ max-height: 25px;
 }
 
 #play {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
+display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    /* background-color: var(--lightblue); */
+    line-height: !important;
+    color: var(--black);
+    font-size: 22px;
+    cursor: pointer;
+    border: 1px solid rgba(0,0,0,.1);
+}
+
+#play:active, .sound:active {
+  transform: scale(.95)
+}
+
+#play:hover {
   background-color: var(--lightblue);
+  color: var(--color-bg);
+}
+
+.sicon {
+  transform: translateY(-1px);
 }
 
 .shape {
@@ -226,9 +240,8 @@ footer {
 }
 
 @keyframes pulse {
-  0%   { opacity: .1; }
-  50%   { opacity: 1; }
-  100% { opacity: .1; }
+0%   { font-variation-settings: "anim" 100; background-color: var(--black); color: var(--color-bg) }
+  100% { font-variation-settings: "anim" 200; background-color: var(--black); color: var(--color-bg) }
 }
 
 .screen {
