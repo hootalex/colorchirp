@@ -17,8 +17,8 @@
 }
 
 iframe {
-/*   opacity: 0;
-  pointer-events: none; */
+  opacity: 0;
+  pointer-events: none;
   border: 0px #ffffff none;
     height: 100vh;
     width: 50%;
@@ -33,15 +33,16 @@ iframe {
 }
 
 .birdcard {
-  width: 150px;
+  width: 135px;
   position: relative;
-  height: 200px;
+  height: 170px;
   border-radius: 10px;
   display: inline-flex;
   background-color: white;
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 5px;
 }
 
 .sound {
@@ -49,10 +50,6 @@ iframe {
   position: absolute;
   top: 10px;
   right: 10px;
-}
-
-.birdcard:hover {
-  cursor: pointer;
 }
 
 .birdcard svg {
@@ -292,7 +289,7 @@ h4 img {
   border: 2px solid var(--color-bg);
 }
 
-.color:hover, .shape:hover, .shapefilter div:hover {
+.color:hover, .shape:hover, .shapefilter div:hover, .birdcard:hover  {
   box-shadow: 0px 0px 0px 1px rgba(0,0,0,.2);
 }
 
