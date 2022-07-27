@@ -32,6 +32,21 @@ iframe {
   width: 20px;
 }
 
+.birdcard {
+  width: 150px;
+  height: 200px;
+  border: 1px solid rgba(0,0,0,.1);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.birdcard svg {
+  width: 80px;
+  margin-bottom: 10px;
+}
+
 .shapefilter {
 }
 
