@@ -28,18 +28,27 @@ iframe {
     border-left: 1px solid black!important;
 }
 
+.monospan {
+  font-family: 'IBM Plex Mono', monospace;
+    font-size: .8rem;
+    color: var(--neutral3);
+}
+
 .birdcard {
   width: 135px;
   position: relative;
   height: 170px;
   border-radius: 10px;
   display: inline-flex;
-/*   background-color: white; */
-  border: 1px solid rgba(0,0,0,.1);
   justify-content: center;
   flex-direction: column;
   align-items: center;
   margin-bottom: 5px;
+  border: 1px solid rgba(0,0,0,0)
+}
+
+.birdcard:hover {
+  border: 1px solid rgba(0,0,0,.2)
 }
 
 .sound {
@@ -191,11 +200,15 @@ display: flex;
     border: 1px solid rgba(0,0,0,.1);
 }
 
+.sound {
+  cursor: pointer;
+}
+
 #play:active, .sound:active {
   transform: scale(.95)
 }
 
-#play:hover {
+#play:hover, .sound:hover {
   background-color: var(--lightblue);
   color: var(--color-bg);
 }
@@ -306,7 +319,7 @@ h4 img {
 }
 
 .wide {
-  max-width: 700px;
+  max-width: 1100px;
 }
 
 .colorselect .color {
@@ -325,6 +338,11 @@ h4 img {
 
 .color {
   border: 2px solid var(--color-bg);
+}
+
+.filters {
+  display: flex;
+  align-items: center;
 }
 
 .color:hover, .shape:hover, .shapefilter div:hover {
