@@ -17,8 +17,8 @@
 }
 
 iframe {
-/*   opacity: 0;
-  pointer-events: none; */
+  opacity: 0;
+  pointer-events: none;
   border: 0px #ffffff none;
     height: 100vh;
     width: 50%;
@@ -30,6 +30,10 @@ iframe {
 
 #play img {
   width: 20px;
+}
+
+.shapefilter svg {
+  width: 30px;
 }
 
 .chartcontainer {
@@ -227,6 +231,13 @@ h4 img {
 .colorselect .color {
   width: 50px;
   height: 50px;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+.colorfilter .color {
+  width: 30px;
+  height: 30px;
   display: inline-block;
   border-radius: 10px;
 }
