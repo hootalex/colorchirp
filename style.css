@@ -47,10 +47,18 @@ iframe {
 }
 
 .sound {
+  border: 1px solid rgba(0,0,0,.1);
+  color: var(--neutral3);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 2px;
+  border-radius: 50%;
   width: 25px;
+  height: 25px;
   position: absolute;
-  top: 10px;
-  right: 10px;
+  top: 5px;
+  right: 5px;
 }
 
 .birdcard svg {
@@ -101,6 +109,25 @@ width: 30px;
 @font-face {
   font-family: "Nay Aug";
   src: url("https://cdn.glitch.global/cedc551f-8766-4635-b71b-ca089ffe676c/NayAugp-Regular.ttf?v=1646230944800") format("truetype")
+}
+
+@font-face {
+  font-family: 'Whirlybats';
+  src: url('https://cdn.glitch.com/31e48906-2369-44ac-8e29-127425af25ce%2FWhirlybatsGX.ttf?v=1613538098017')  format('truetype');
+}
+
+    .wb-icon{
+  font-family: 'Whirlybats';
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 ::selection {
@@ -154,17 +181,13 @@ max-height: 25px;
 }
 
 #play {
-
-}
-
-#play img {
-  width:30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
   height: 30px;
-  cursor: pointer;
-}
-
-#play:hover, .sound:hover {
-  filter: brightness(1.05)
+  border-radius: 50%;
+  background-color: var(--lightblue);
 }
 
 .shape {
@@ -505,7 +528,7 @@ display: flex;
 .birdheader h1 {
   color: var(--black);
   font-size: 1.8rem;
-  width: 100%;
+  width: calc(100% - 30px);
   letter-spacing: -1px;
 }
 
