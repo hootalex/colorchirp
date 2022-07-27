@@ -259,7 +259,7 @@ h4 img {
   border: 2px solid var(--color-bg);
 }
 
-.color:hover, .shape:hover {
+.color:hover, .shape:hover, .shapefilter div:hover {
   box-shadow: 0px 0px 0px 1px rgba(0,0,0,.2);
 }
 
