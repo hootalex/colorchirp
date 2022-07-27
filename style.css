@@ -182,7 +182,7 @@ max-height: 25px;
 }
 
 .birdheader svg {
-/*   fill: var(--neutral2); */
+  fill: var(--neutral3);
 }
 
 #play {
@@ -343,6 +343,7 @@ h4 img {
 .filters {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .color:hover, .shape:hover, .shapefilter div:hover {
