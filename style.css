@@ -46,6 +46,7 @@ width: 30px;
 
 .shapefilter svg {
   width: 25px;
+  fill: var(--neutral2)!important;
 }
 
 .chartcontainer {
