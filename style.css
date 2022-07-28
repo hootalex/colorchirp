@@ -737,6 +737,13 @@ li {
   transform: translateY(0%);
 }
   
+  .filters {
+    display: block;
+  }
+  
+  .colorfilter, .shapefilter {
+  }
+  
   .widesplit {
   width: 100%;
   margin: initial;
