@@ -42,6 +42,7 @@
   transition: .3s;
   font-size: 1.2rem;
   font-variation-settings: "anim" 100;
+  color: var(--neutral1);
 }
 
 /* #x:hover {
