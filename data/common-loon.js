@@ -59,21 +59,20 @@ var shapechart = [
 ["Circle", "78", "var(--neutral1)", circle],
   
 ["Rhombus", "42", "var(--neutral3)", rhombus],
+  
+["Bouba", "32", "var(--neutral1)", bouba],
 
 ["Triangle", "27" , "var(--neutral3)", triangle],
 
 ["Diamond", "15", "var(--neutral2)", diamond],
 
-
-["Bouba", "32", "var(--neutral1)", bouba],
-
 ["Kiki", "14", "var(--neutral2)", kiki],
-
-["Line", "3", "var(--neutral1)", line],
   
 ["Square", "6", "var(--neutral1)", square],
   
-["Zigzag", "5", "var(--neutral3)", zigzag]
+["Zigzag", "5", "var(--neutral3)", zigzag],
+  
+["Line", "3", "var(--neutral1)", line]
 
 ];
 
