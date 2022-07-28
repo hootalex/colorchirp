@@ -24,7 +24,7 @@
 
   <body>
     <div class="container wide">
-<svg width="30" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<svg width="20" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 185.08772 185.96492" style="enable-background:new 0 0 185.08772 185.96492;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:var(--lightblue);}
@@ -170,12 +170,14 @@
 $(".pagepane").addClass("paneshow")
     $(".wide").addClass("widesplit")
     $("iframe").addClass("frameload")
+    $(".wide").removeClass("placeback")
     $("iframe").attr('src', "https://www.colorchirp.com/"+$(this).attr("link"))
   });
     
       $( "#x" ).on( "click", function( event ) {
 $(".pagepane").removeClass("paneshow")
       $(".wide").removeClass("widesplit")
+        $(".wide").addClass("placeback")
         $("iframe").removeClass("frameload")
       });
   </script>

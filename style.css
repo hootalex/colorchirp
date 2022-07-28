@@ -647,7 +647,7 @@ h2 {
 
 @keyframes frameload {
   0%   { opacity: 0; }
-  50%   { opacity: 0; }
+  90%   { opacity: 0; }
   100% { opacity: 1; }
 }
 
@@ -669,6 +669,15 @@ li {
   margin: initial;
   animation: slide .3s;
   box-sizing: border-box;
+}
+
+@keyframes placeback {
+0%   { transform: translateX(-5%) }
+  100% { transform: translateX(0%) }
+}
+
+.placeback {
+  animation: placeback .3s;
 }
 
 .birdcard:active {
@@ -709,6 +718,16 @@ li {
   letter-spacing: -.5px;
 }
   
+    @keyframes slide {
+0%   { transform: translateY(0%) }
+  100% { transform: translateY(-5%) }
+}
+  
+  @keyframes placeback {
+0%   { transform: translateY(-5%) }
+  100% { transform: translateY(0%) }
+}
+  
   .pagepane {
     width: 100%;
     transform: translateY(20%);
@@ -719,9 +738,8 @@ li {
 }
   
   .widesplit {
-  width: 50%;
+  width: 100%;
   margin: initial;
-  animation: none;
   box-sizing: border-box;
 }
   
