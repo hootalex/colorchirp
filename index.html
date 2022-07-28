@@ -100,7 +100,7 @@
       </p>
       <br>
       <div class="birdselect">
-        <div class="birdcard" color="brown" shape="loop">
+        <div class="birdcard" color="brown" shape="loop" link="common-loon">
           <div class="sound wb-icon">ψ</div>
           <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1108.30835 631.11829" style="enable-background:new 0 0 1108.30835 631.11829;" xml:space="preserve">
 <path d="M25.63879,571.88708c139.16-260.67999,479.22-229.32001,650.71997-220.5
@@ -115,7 +115,7 @@
           </h4>
         </div>
         
-        <div class="birdcard" color="brown" shape="loop">
+        <div class="birdcard" color="brown" shape="loop" link="atlantic-puffin">
                     <div class="sound wb-icon">ψ</div>
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 587.99994 847.74823" style="enable-background:new 0 0 587.99994 847.74823;" xml:space="preserve">
 <path d="M463.41721,194.32372c40.57825,0.03679,82.79794-7.55672,118.70273,1.08701
@@ -139,9 +139,17 @@
         
         
       </div>
-      <div class="pagepane">
-        <iframe src="https://www.colorchirp.com/common-loon" style="border:0px #ffffff none;" name="myiFrame" scrolling="yes" frameborder="1" marginheight="0px" marginwidth="0px" height="400px" width="600px" allowfullscreen></iframe>
+      <div id="x" class="wb-icon">
+        ↓
       </div>
+        <iframe class="pagepane" src="" style="border:0px #ffffff none;" name="myiFrame" scrolling="yes" frameborder="1" marginheight="0px" marginwidth="0px" height="400px" width="600px" allowfullscreen></iframe>
       </div>
   </body>
+  <script>
+  $( ".birdcard" ).on( "click", function( event ) {
+$(".pagepane").addClass("paneshow")
+    $("#x").addClass("xshow")
+    $(".pagepane").attr('src', "https://www.colorchirp.com/"+$(this).attr("link"))
+  });
+  </script>
 </html>
