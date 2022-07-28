@@ -1,5 +1,5 @@
 :root {
-  --color-bg: #f9ecdb;
+  --color-bg: #f9f3eb;
   --lightblue: #479edb;
   --red: #f4221e;
   --orange: #ff6700;
@@ -25,7 +25,7 @@
     right: 0;
     position: absolute;
     top: 0;
-    border-left: 1px solid black!important;
+    border-left: 1px solid rgba(0,0,0,.45)!important;
   background-color: var(--color-bg);
   transition: .3s;
   transform: translateX(40%);
@@ -40,7 +40,13 @@
   right: 10px;
   z-index: 999;
   transition: .3s;
+  font-size: 1.2rem;
+  font-variation-settings: "anim" 100;
 }
+
+/* #x:hover {
+  font-variation-settings: "anim" 120;
+} */
 
 .xshow {
   opacity: 1!important;
@@ -323,6 +329,8 @@ html, body {
 -moz-osx-font-smoothing: grayscale;
   margin-bottom: 5vh;
   margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
   font-size: 1.05rem;
 }
 
