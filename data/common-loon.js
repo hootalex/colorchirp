@@ -25,54 +25,55 @@ $( document ).ready(function() {
 
     
 var colorchart = [
-
-["Red", "8", "var(--red)"],
+  
+["Brown", "152", "var(--brown)"],
+  
+["Blue", "142", "var(--blue)"],
+  
+["Purple", "135", "var(--purple)"],
+  
+["Black", "111", "var(--black)"],
+  
+["Light blue", "108", "var(--lightblue)"],
+  
+["Green", "45", "var(--green)"],
 
 ["Orange", "38" , "var(--orange)"],
 
 ["Yellow", "38" , "var(--yellow)"],
 
-["Green", "45", "var(--green)"],
-
-["Light blue", "108", "var(--lightblue)"],
-
-["Blue", "142", "var(--blue)"],
-
-["Purple", "135", "var(--purple)"],
-
 ["Pink", "11", "var(--pink)"],
-
-["Brown", "152", "var(--brown)"],
-
-["Black", "111", "var(--black)"]
+  
+["Red", "8", "var(--red)"]
 
 ];
   
 var shapechart = [
+  
+["Loop", "294", "var(--neutral3)", loop],
+  
+["Half-circle", "178" , "var(--neutral2)", halfcircle],
+  
+["Wave", "99", "var(--neutral2)", wave],
 
 ["Circle", "78", "var(--neutral1)", circle],
-
-["Half-circle", "178" , "var(--neutral2)", halfcircle],
+  
+["Rhombus", "42", "var(--neutral3)", rhombus],
 
 ["Triangle", "27" , "var(--neutral3)", triangle],
 
-["Square", "6", "var(--neutral1)", square],
-
 ["Diamond", "15", "var(--neutral2)", diamond],
 
-["Rhombus", "42", "var(--neutral3)", rhombus],
 
 ["Bouba", "32", "var(--neutral1)", bouba],
 
 ["Kiki", "14", "var(--neutral2)", kiki],
 
-["Loop", "294", "var(--neutral3)", loop],
-
 ["Line", "3", "var(--neutral1)", line],
   
-["Wave", "99", "var(--neutral2)", wave],
+["Square", "6", "var(--neutral1)", square],
   
-["Zigzag", "5", "var(--neutral3)", zigzag],
+["Zigzag", "5", "var(--neutral3)", zigzag]
 
 ];
 
