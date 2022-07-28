@@ -140,7 +140,7 @@
         
       </div>
       <div id="x" class="wb-icon">
-        ↓
+        '
       </div>
         <iframe class="pagepane" src="" style="border:0px #ffffff none;" name="myiFrame" scrolling="yes" frameborder="1" marginheight="0px" marginwidth="0px" height="400px" width="600px" allowfullscreen></iframe>
       </div>
@@ -149,7 +149,12 @@
   $( ".birdcard" ).on( "click", function( event ) {
 $(".pagepane").addClass("paneshow")
     $("#x").addClass("xshow")
+    $("#x").addClass("xshow")
     $(".pagepane").attr('src', "https://www.colorchirp.com/"+$(this).attr("link"))
   });
+    
+      $( "#x" ).on( "click", function( event ) {
+$(".pagepane").removeClass("paneshow")
+    $("#x").removeClass("xshow")  });
   </script>
 </html>
