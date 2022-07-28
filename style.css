@@ -32,6 +32,11 @@
   transform: translateX(40%);
 }
 
+.pagepane iframe {
+   height: 100vh;
+  width: 100%;
+}
+
 #x {
   opacity: 0;
   pointer-events: none;
@@ -613,6 +618,16 @@ h2 {
   max-height: 2rem;
 }
 
+@keyframes frameload {
+  0%   { opacity: 0; }
+  50%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.frameload {
+  animation: frameload 1s;
+}
+
 li {
   border-bottom: 1px solid rgba(0,0,0,.1);
   padding: 10px;
@@ -665,6 +680,22 @@ li {
   
   h2, h3, h4 {
   letter-spacing: -.5px;
+}
+  
+  .pagepane {
+    width: 100%;
+    transform: translateY(20%);
+  }
+  
+  .paneshow {
+  transform: translateY(0%);
+}
+  
+  .widesplit {
+  width: 50%;
+  margin: initial;
+  animation: none;
+  box-sizing: border-box;
 }
   
 }

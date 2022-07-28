@@ -140,7 +140,8 @@
         
       </div>
       </div>
-            <iframe class="pagepane" src="" style="border:0px #ffffff none;" name="myiFrame" scrolling="yes" frameborder="1" marginheight="0px" marginwidth="0px" height="400px" width="600px" allowfullscreen></iframe>
+            <div class="pagepane">
+              <iframe src="" style="border:0px #ffffff none;" scrolling="yes" frameborder="1" marginheight="0px" marginwidth="0px" height="400px" width="600px" allowfullscreen></iframe></div>
       <div id="x" class="wb-icon">
         ↓
       </div>
@@ -150,13 +151,15 @@
 $(".pagepane").addClass("paneshow")
     $("#x").addClass("xshow")
     $(".wide").addClass("widesplit")
-    $(".pagepane").attr('src', "https://www.colorchirp.com/"+$(this).attr("link"))
+    $("iframe").addClass("frameload")
+    $("iframe").attr('src', "https://www.colorchirp.com/"+$(this).attr("link"))
   });
     
       $( "#x" ).on( "click", function( event ) {
 $(".pagepane").removeClass("paneshow")
     $("#x").removeClass("xshow")  
       $(".wide").removeClass("widesplit")
+        $("iframe").removeClass("frameload")
       });
   </script>
 </html>
