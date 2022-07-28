@@ -24,9 +24,7 @@
 
   <body>
     <div class="container wide">
-      <h4>
-        ColorChirp
-      </h4>
+     <img width="30" src="https://cdn.glitch.global/457b3231-6ea2-4da0-a5e5-e4f8765ce99d/colorchirp.png?v=1658613330136"/>
 <h1>Bird Song Sound Survey</h1>
       <hr>
       <div class="filters">
@@ -141,15 +139,15 @@
       </div>
       </div>
             <div class="pagepane">
-              <iframe src="" style="border:0px #ffffff none;" scrolling="yes" frameborder="1" marginheight="0px" marginwidth="0px" height="400px" width="600px" allowfullscreen></iframe></div>
-      <div id="x" class="wb-icon">
+              <iframe src="" style="border:0px #ffffff none;" scrolling="yes" frameborder="1" marginheight="0px" marginwidth="0px" height="400px" width="600px" allowfullscreen></iframe>
+          <div id="x" class="wb-icon">
         ↓
       </div>
+    </div>
   </body>
   <script>
   $( ".birdcard" ).on( "click", function( event ) {
 $(".pagepane").addClass("paneshow")
-    $("#x").addClass("xshow")
     $(".wide").addClass("widesplit")
     $("iframe").addClass("frameload")
     $("iframe").attr('src', "https://www.colorchirp.com/"+$(this).attr("link"))
@@ -157,7 +155,6 @@ $(".pagepane").addClass("paneshow")
     
       $( "#x" ).on( "click", function( event ) {
 $(".pagepane").removeClass("paneshow")
-    $("#x").removeClass("xshow")  
       $(".wide").removeClass("widesplit")
         $("iframe").removeClass("frameload")
       });
