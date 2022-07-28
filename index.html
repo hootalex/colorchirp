@@ -123,7 +123,7 @@
         </div>
         
         <div class="birdcard" color="brown" shape="loop" link="atlantic-puffin">
-                    <div class="sound wb-icon">ψ</div>
+                    <div class="sound wb-icon" mp3="https://cdn.glitch.global/457b3231-6ea2-4da0-a5e5-e4f8765ce99d/XC432766%20-%20Common%20Loon%20-%20Gavia%20immer_trimmed.mp3?v=1658622933181">ψ</div>
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 587.99994 847.74823" style="enable-background:new 0 0 587.99994 847.74823;" xml:space="preserve">
 <path d="M463.41721,194.32372c40.57825,0.03679,82.79794-7.55672,118.70273,1.08701
 	c-4.65466-60.51064-57.94696-128.97443-110.31442-153.31999c-60.65628-62.4229-195.44559-38.8828-195.44559,78.84
@@ -166,6 +166,8 @@
     </div>
   </body>
   <script>
+    
+    
   $( ".birdcard" ).on( "click", function( event ) {
 $(".pagepane").addClass("paneshow")
     $(".wide").addClass("widesplit")
@@ -182,7 +184,17 @@ $(".pagepane").removeClass("paneshow")
       });
     
           $( ".sound" ).on( "click", function( event ) {
-            
+                        var sound = new Howl({
+  src: [$(this).attr("mp3")],
+  html5: true,
+  onend: function() {
+    $(this).removeClass("disable")
+  }
+});
+            sound.play()
+            $(this).addClass("disable")
+            event.stopPropagation();
+      
       });
   </script>
 </html>
