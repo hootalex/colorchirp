@@ -1,4 +1,4 @@
-var responses = 191
+var responses = 419
 var topcolor = "Brown"
 var topshape = "rhombus"
 
@@ -42,7 +42,7 @@ var colorchart = [
 
 ["Pink", "3", "var(--pink)"],
 
-["Brown", "82", "var(--brown)"],
+["Brown", "165", "var(--brown)"],
 
 ["Black", "20", "var(--black)"]
 

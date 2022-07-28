@@ -32,6 +32,10 @@
   transform: translateX(40%);
 }
 
+.birdcard h4 {
+  user-select: none;
+}
+
 .filters {
   opacity: .3;
   pointer-events: none;
