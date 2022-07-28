@@ -1,8 +1,8 @@
-var responses = 419
+var responses = 468
 var topcolor = "Brown"
-var topshape = "rhombus"
+var topshape = "wave"
 
-$("#winner").html(rhombus)
+$("#winner").html(wave)
 $("#winner svg").css("fill","var(--brown)")
 
 const birds =  [
@@ -26,53 +26,53 @@ $( document ).ready(function() {
     
 var colorchart = [
   
-["Brown", "165", "var(--brown)"],
+["Brown", "232", "var(--brown)"],
   
-["Green", "43", "var(--green)"],
+["Green", "60", "var(--green)"],
 
-["Orange", "34" , "var(--orange)"],
+["Orange", "46" , "var(--orange)"],
   
-["Black", "26", "var(--black)"],
+["Black", "40", "var(--black)"],
   
-["Blue", "19", "var(--blue)"],
+["Blue", "27", "var(--blue)"],
 
-["Purple", "19", "var(--purple)"],
+["Purple", "26", "var(--purple)"],
 
-["Yellow", "10" , "var(--yellow)"],
+["Yellow", "20" , "var(--yellow)"],
 
-["Light blue", "3", "var(--lightblue)"],
+["Light blue", "5", "var(--lightblue)"],
 
-["Pink", "3", "var(--pink)"],
+["Pink", "4", "var(--pink)"],
   
-["Red", "2", "var(--red)"]
+["Red", "4", "var(--red)"]
 
 ];
   
 var shapechart = [
   
-["Wave", "77", "var(--neutral2)", wave],
+["Wave", "83", "var(--neutral3)", wave],
   
-["Rhombus", "77", "var(--neutral3)", rhombus],
+["Rhombus", "81", "var(--neutral2)", rhombus],
 
-["Half-circle", "64" , "var(--neutral2)", halfcircle],
+["Half-circle", "76" , "var(--neutral1)", halfcircle],
   
-["Bouba", "46", "var(--neutral1)", bouba],
+["Bouba", "50", "var(--neutral3)", bouba],
   
-["Zigzag", "34", "var(--neutral3)", zigzag],
+["Zigzag", "39", "var(--neutral2)", zigzag],
   
-["Loop", "24", "var(--neutral3)", loop],
+["Loop", "29", "var(--neutral1)", loop],
 
-["Triangle", "24" , "var(--neutral3)", triangle],
+["Triangle", "26" , "var(--neutral3)", triangle],
+  
+["Kiki", "18", "var(--neutral2)", kiki],
 
-["Diamond", "17", "var(--neutral2)", diamond],
-
-["Kiki", "16", "var(--neutral2)", kiki],
+["Diamond", "17", "var(--neutral1)", diamond],
   
-["Line", "15", "var(--neutral1)", line],
+["Line", "16", "var(--neutral3)", line],
   
-["Circle", "12", "var(--neutral1)", circle],
+["Circle", "16", "var(--neutral2)", circle],
   
-["Square", "11", "var(--neutral1)", square]
+["Square", "14", "var(--neutral1)", square]
 
 ];
 
