@@ -29,7 +29,6 @@
   background-color: var(--color-bg);
   transition: .3s;
   transform: translateX(40%);
-  box-shadow: -10px 0px 0px 0px rgba(0,0,0,0.1);
 }
 
 #x {
@@ -281,6 +280,11 @@ footer {
 @keyframes pulse {
 0%   { font-variation-settings: "anim" 100; background-color: var(--black); color: var(--color-bg) }
   100% { font-variation-settings: "anim" 200; background-color: var(--black); color: var(--color-bg) }
+}
+
+@keyframes slide {
+0%   { transform: translateX(20%) }
+  100% { transform: translateX(0%) }
 }
 
 .screen {
@@ -609,8 +613,14 @@ li {
 }
 
 .widesplit {
-  width: 40%;
+  width: 50%;
   margin: initial;
+  animation: slide .3s;
+  box-sizing: border-box;
+}
+
+.birdcard:active {
+  transform: translateY(2px);
 }
 
 @media screen and (max-width: 600px) {
