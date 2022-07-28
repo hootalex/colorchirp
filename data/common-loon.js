@@ -54,11 +54,11 @@ var shapechart = [
   
 ["Half-circle", "178" , "var(--neutral2)", halfcircle],
   
-["Wave", "99", "var(--neutral2)", wave],
+["Wave", "99", "var(--neutral1)", wave],
 
-["Circle", "78", "var(--neutral1)", circle],
+["Circle", "78", "var(--neutral3)", circle],
   
-["Rhombus", "42", "var(--neutral3)", rhombus],
+["Rhombus", "42", "var(--neutral2)", rhombus],
   
 ["Bouba", "32", "var(--neutral1)", bouba],
 
@@ -66,11 +66,11 @@ var shapechart = [
 
 ["Diamond", "15", "var(--neutral2)", diamond],
 
-["Kiki", "14", "var(--neutral2)", kiki],
+["Kiki", "14", "var(--neutral1)", kiki],
   
-["Square", "6", "var(--neutral1)", square],
+["Square", "6", "var(--neutral3)", square],
   
-["Zigzag", "5", "var(--neutral3)", zigzag],
+["Zigzag", "5", "var(--neutral2)", zigzag],
   
 ["Line", "3", "var(--neutral1)", line]
 
