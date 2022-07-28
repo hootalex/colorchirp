@@ -4,9 +4,9 @@
     <meta charset="utf-8" />
     <title>Bird Song Sound Survey</title>
     <link rel="stylesheet" href="/style.css" />
-    <script
-  src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
-  integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+<script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
   crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js" integrity="sha512-6+YN/9o9BWrk6wSfGxQGpt3EUK6XeHi6yeHV+TYD2GR0Sj/cggRpXr1BrAQf0as6XslxomMUxXp2vIl+fv0QRA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="/shapes.js" defer></script>
@@ -108,7 +108,7 @@
       <br>
       <div class="birdselect">
         <div class="birdcard" color="brown" shape="loop" link="common-loon">
-          <div class="sound wb-icon">ψ</div>
+          <div class="sound wb-icon" mp3="https://cdn.glitch.global/457b3231-6ea2-4da0-a5e5-e4f8765ce99d/XC432766%20-%20Common%20Loon%20-%20Gavia%20immer_trimmed.mp3?v=1658622933181">ψ</div>
           <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1108.30835 631.11829" style="enable-background:new 0 0 1108.30835 631.11829;" xml:space="preserve">
 <path d="M25.63879,571.88708c139.16-260.67999,479.22-229.32001,650.71997-220.5
 	c79.38,3.91998-1.95996-151.90001,12.74005-249.89999c11.75995-74.48,83.29999-97.02,148.95996-95.06
@@ -122,8 +122,8 @@
           </h4>
         </div>
         
-        <div class="birdcard" color="brown" shape="loop" link="atlantic-puffin">
-                    <div class="sound wb-icon" mp3="https://cdn.glitch.global/457b3231-6ea2-4da0-a5e5-e4f8765ce99d/XC432766%20-%20Common%20Loon%20-%20Gavia%20immer_trimmed.mp3?v=1658622933181">ψ</div>
+        <div class="birdcard" color="brown" shape="rhombus" link="atlantic-puffin">
+                    <div class="sound wb-icon" mp3="https://cdn.glitch.global/457b3231-6ea2-4da0-a5e5-e4f8765ce99d/XC667980%20-%20Atlantic%20Puffin%20-%20Fratercula%20arctica.mp3?v=1658842229401">ψ</div>
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 587.99994 847.74823" style="enable-background:new 0 0 587.99994 847.74823;" xml:space="preserve">
 <path d="M463.41721,194.32372c40.57825,0.03679,82.79794-7.55672,118.70273,1.08701
 	c-4.65466-60.51064-57.94696-128.97443-110.31442-153.31999c-60.65628-62.4229-195.44559-38.8828-195.44559,78.84
@@ -188,12 +188,26 @@ $(".pagepane").removeClass("paneshow")
   src: [$(this).attr("mp3")],
   html5: true,
   onend: function() {
-    $(this).removeClass("disable")
+    $(".sound").removeClass("disable softdisable")
   }
 });
             sound.play()
             $(this).addClass("disable")
+             $(".sound").addClass("softdisable")
             event.stopPropagation();
+      
+      });
+    
+              $( ".colorfilter .color" ).on( "click", function( event ) {
+    $(this).attr("color")
+                
+                jQuery.each($(".birdcard"), function(index, value) {
+
+                  if(if($(this).attr("name")))
+                  
+                  
+  });
+
       
       });
   </script>

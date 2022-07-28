@@ -236,6 +236,7 @@ a {
 .disable {
   pointer-events: none;
   animation: pulse .5s linear infinite;
+  opacity: 1!important;
 }
 
 .shapechart svg {
@@ -653,6 +654,11 @@ h2 {
 
 .frameload {
   animation: frameload 1s;
+}
+
+.softdisable {
+  pointer-events: none;
+  opacity: .5;
 }
 
 li {
