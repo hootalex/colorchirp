@@ -115,7 +115,7 @@
       </p>
       <br>
       <div class="birdselect">
-        <div class="birdcard" color="brown" shape="loop" link="common-loon">
+        <div class="birdcard brown loop" link="common-loon">
           <div class="sound wb-icon" mp3="https://cdn.glitch.global/457b3231-6ea2-4da0-a5e5-e4f8765ce99d/XC432766%20-%20Common%20Loon%20-%20Gavia%20immer_trimmed.mp3?v=1658622933181">ψ</div>
           <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1108.30835 631.11829" style="enable-background:new 0 0 1108.30835 631.11829;" xml:space="preserve">
 <path d="M25.63879,571.88708c139.16-260.67999,479.22-229.32001,650.71997-220.5
@@ -130,7 +130,7 @@
           </h4>
         </div>
         
-        <div class="birdcard" color="brown" shape="rhombus" link="atlantic-puffin">
+        <div class="birdcard brown wave" link="atlantic-puffin">
                     <div class="sound wb-icon" mp3="https://cdn.glitch.global/457b3231-6ea2-4da0-a5e5-e4f8765ce99d/XC667980%20-%20Atlantic%20Puffin%20-%20Fratercula%20arctica.mp3?v=1658842229401">ψ</div>
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 587.99994 847.74823" style="enable-background:new 0 0 587.99994 847.74823;" xml:space="preserve">
 <path d="M463.41721,194.32372c40.57825,0.03679,82.79794-7.55672,118.70273,1.08701
@@ -223,12 +223,21 @@ $(".pagepane").removeClass("paneshow")
       });
     
               $( ".colorfilter .color" ).on( "click", function( event ) {
-    $(this).attr("color")
+    
+                var clr = $(this).attr("color")
+                
+                $(".colorfilter .color").removeClass("selected")
+                
+                $(this).addClass("selected")
                 
                 jQuery.each($(".birdcard"), function(index, value) {
 
-                 
+      $(".birdcard").addClass("min")    
                   
+                  if ($(this).hasClass(clr)) {
+                    $(".birdcard").removeClass("min")   
+                  }
+
                   
   });
 

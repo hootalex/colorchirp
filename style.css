@@ -37,8 +37,12 @@
 }
 
 .filters {
-  opacity: .3;
-  pointer-events: none;
+/*   opacity: .3;
+  pointer-events: none; */
+}
+
+.min {
+  opacity: 0.2;
 }
 
 .pagepane iframe {
@@ -104,13 +108,12 @@ nav a {
   flex-direction: column;
   align-items: center;
   margin-bottom: 5px;
-  border: 1px solid rgba(0,0,0,0.1);
-/*     background-color: #ffffff; */
+    background-color: #ffffff;
   cursor: pointer;
 }
 
 .birdcard:hover {
-  background-color: white;
+  background-color: #ffffffcf;
 }
 
 .sound {
