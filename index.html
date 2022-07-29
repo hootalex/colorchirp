@@ -222,50 +222,50 @@ $(".pagepane").removeClass("paneshow")
       
       });
     
-              $( ".colorfilter .color" ).on( "click", function( event ) {
+    //when clicking a filter color/shape
     
-                var clr = $(this).attr("color")
+//               $( ".colorfilter .color" ).on( "click", function( event ) {
+    
+//                 var clr = $(this).attr("color")
                 
-                $(".colorfilter .color").removeClass("selected")
+//                 $(".colorfilter .color").removeClass("selected")
                 
-                $(this).addClass("selected")
+//                 $(this).addClass("selected")
                 
-                jQuery.each($(".birdcard"), function(index, value) {
+//                 jQuery.each($(".birdcard"), function(index, value) {
 
-      $(".birdcard").addClass("min")    
+//       $(".birdcard").addClass("min")    
                   
-                  if ($(this).hasClass(clr)) {
-                    $(".birdcard").removeClass("min")   
-                  }
+//       $("."+clr).removeClass("min")   
 
                   
-  });
+//   });
 
       
-      });
+//       });
     
-                  $( ".shapefilter div" ).on( "click", function( event ) {
+//                   $( ".shapefilter div" ).on( "click", function( event ) {
     
-                var shp = $(this).attr("shape")
+//                 var shp = $(this).attr("shape")
                 
-                console.log(shp)
+//                 console.log(shp)
                 
-                $(".shapefilter div").removeClass("selected")
+//                 $(".shapefilter div").removeClass("selected")
                 
-                $(this).addClass("selected")
+//                 $(this).addClass("selected")
                 
-                jQuery.each($(".birdcard"), function(index, value) {
+//                 jQuery.each($(".birdcard"), function(index, value) {
 
-      $(".birdcard").addClass("min")    
+//       $(".birdcard").addClass("min")    
                   
-                  if (this.hasClass(shp)) {
-                    $(".birdcard").removeClass("min")   
-                  }
+
+//                     $("."+shp).removeClass("min")   
+
 
                   
-  });
+//   });
 
       
-      });
+//       });
   </script>
 </html>

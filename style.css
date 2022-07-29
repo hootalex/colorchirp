@@ -37,8 +37,8 @@
 }
 
 .filters {
-/*   opacity: .3;
-  pointer-events: none; */
+  opacity: .3;
+  pointer-events: none;
 }
 
 .min {
