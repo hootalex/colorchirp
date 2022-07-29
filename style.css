@@ -58,6 +58,7 @@ cursor: pointer;
     font-variation-settings: "anim" 100;
     color: var(--neutral2);
     border: 1px solid transparent;
+  background-color: var(--color-bg);
     border-radius: 50%;
     width: 25px;
     height: 25px;
