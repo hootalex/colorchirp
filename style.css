@@ -70,6 +70,17 @@ cursor: pointer;
   background-color: white;
 }
 
+nav {
+  max-width: 400px;
+}
+
+nav a {
+  color: var(--neutral3);
+  font-family: 'IBM Plex Mono', monospace;
+    font-size: .8rem;
+    color: var(--neutral3);
+}
+
 .paneshow {
   opacity: 1;
   pointer-events: all;
