@@ -391,16 +391,14 @@ footer {
 }
 
 .hometitle {
-  animation: 5s colorshift infinite;
+  animation: 20s colorshift infinite;
 }
 
 @keyframes colorshift {
   0%   { background-color: var(--lightblue); }
-  32% { background-color: var(--lightblue); }
   33%   { background-color: var(--orange) }
-  75% { background-color: var(--orange) }
-  76% { background-color: var(--pink) }
-  100% { background-color: var(--pink) }
+  66% { background-color: var(--pink) }
+  100% { background-color: var(--lightblue) }
 }
 
 .shape svg {
