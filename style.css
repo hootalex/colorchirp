@@ -108,7 +108,7 @@ nav {
 
 nav a {
   color: var(--neutral3);
-  font-family: 'IBM Plex Mono', monospace;
+/*   font-family: 'IBM Plex Mono', monospace; */
     font-size: .8rem;
     color: var(--neutral3);
 }
@@ -391,13 +391,15 @@ footer {
 }
 
 .hometitle {
-  animation: 20s colorshift infinite;
+  animation: 60s colorshift infinite linear;
 }
 
 @keyframes colorshift {
   0%   { background-color: var(--lightblue); }
-  33%   { background-color: var(--orange) }
-  66% { background-color: var(--pink) }
+  20%   { background-color: var(--green) }
+  40%   { background-color: var(--orange) }
+  60% { background-color: var(--pink) }
+  80% { background-color: var(--purple) }
   100% { background-color: var(--lightblue) }
 }
 
