@@ -16,6 +16,33 @@
   --neutral3: #090c14c2;
 }
 
+.hometitle {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.hometitle {
+  background: var(--lightblue);
+    color: var(--color-bg);
+    padding: 33px;
+  border-radius: 5px;
+}
+
+.hometitle .button {
+  display: inline-block;
+  float: right;
+  border: 1px solid var(--color-bg);
+}
+
+.hometitle .button:hover {
+  background-color: var(--color-bg);
+  color: var(--black)
+}
+
+.hometitle h1 {
+  display: inline!important;
+}
+
 .pagepane {
   border-top: 2px solid black!important;
   opacity: 0;
@@ -716,6 +743,12 @@ li {
 
 .birdcard:active {
   transform: translateY(2px);
+}
+
+.hometitle .button {
+  display: block;
+  width: 100%;
+  text-align: center;
 }
 
 @media screen and (max-width: 600px) {
