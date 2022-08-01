@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Atlantic Puffin Sound Survey</title>
+    <link rel="stylesheet" href="/style.css" />
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+  integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+  crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js" integrity="sha512-6+YN/9o9BWrk6wSfGxQGpt3EUK6XeHi6yeHV+TYD2GR0Sj/cggRpXr1BrAQf0as6XslxomMUxXp2vIl+fv0QRA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="/shapes.js"></script>
+    <script src="/data/american-robin.js" defer></script>
+<meta name="viewport" content="width=device-width, user-scalable=no">
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://cdn.glitch.global/457b3231-6ea2-4da0-a5e5-e4f8765ce99d/colorchirp.png?v=1658613330136"
+    />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="birdheader">
+        <h1>
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 737.24994 665.46918" style="enable-background:new 0 0 737.24994 665.46918;" xml:space="preserve">
+<path d="M725.71246,54.74793c-14.77301-3.85384-33.33417-7.27063-51.8219-8.35111
+	c-10.29913-8.73782-24.59534-16.62561-30.49811-20.06889c-55.86005-40.18-140.14001-15.68-157.78003,45.08l-261.65997,312.62
+	L7.3725,564.3479l20.58,16.66003l167.0793-90.01825l-34.7793,34.15826l13.72,12.73999l111.51352-68.96237
+	c21.33826,15.8241,51.51459,24.11337,85.48682,25.3504c9.50894,38.83963,20.50397,60.0043,30.85989,67.23483l13.85822,67.8064
+	l-35.91852,0.69073c-10.78,0-11.75998,13.71997,0,13.71997h37.77505c0.70401,0.3963,1.49811,0.73267,2.40497,0.98004l49,13.71997
+	c10.78,2.94,14.69998-11.76001,4.89999-14.70001h7.84h1.51505c0.70401,0.3963,1.49811,0.73267,2.40494,0.98004l49,13.71997
+	c10.78003,2.94,14.70001-11.76001,4.90002-14.70001h7.83997c11.76001,0,10.78003-15.67999,0-15.67999l-61.09595,1.17493
+	c-0.35233-0.20721-0.72519-0.39282-1.12357-0.54974c0.03937-1.36646-0.10831-2.87866-0.50046-4.54517l-14.21982-66.02039
+	c10.6846-12.54346,18.07144-43.04266,17.93918-84.04031c64.51257-23.9808,123.71082-68.61783,149.16064-131.19931
+	c44.55573-107.67636-18.13171-209.18901,33.41565-262.91675c17.88812-7.70817,35.64111-12.41485,52.82434-15.40324
+	C732.57245,62.58793,730.61243,55.72793,725.71246,54.74793z M435.63245,628.04791l-14.53696-69.56976
+	c4.51019-5.11365,8.44705-13.40161,11.49921-24.31311c6.29678,14.94019,12.81125,23.96368,19.06976,27.89734l13.36798,62.06555
+	c0.3266,1.55127,0.77017,2.94659,1.29175,4.21552l-30.51913,0.58691C435.74979,628.63757,435.70361,628.35046,435.63245,628.04791z"
+	/>
+</svg>
+American Robin
+        </h1>
+<div id="play" class="wb-icon"><div class="sicon">ψ</div></div>
+      </div>
+
+      <div id="headerstats">
+        <p>
+          <span id="responses"></span> responses
+        </p>
+        <p>
+          Jul. 26–28, 2022
+        </p>
+      </div>
+      <hr>
+      <div id="commonanswer">
+      <div>
+
+        <h2>Most votes</h2>
+        <p id="winningresult">
+          <span id="wincolor"></span>, <span id="winshape"></span>
+        </p>
+      </div>
+<svg id="winner" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 64.61926 32.30963" style="fill: rgb(9, 58, 198);" xml:space="preserve">
+
+</svg>
+      </div>
+      <hr>
+      <div class="chartcontainer">
+        
+            <div id="colorchart">
+        <h2>
+          Colors chosen
+        </h2>
+        <div class="colorchart">
+    </div>
+<!--         <span class="editorial">No single winner, but bright warmer colors mostly avoided</span> -->
+      </div>
+<!--       <hr> -->
+     <div id="shapechart">
+                              <h2>
+          Shapes chosen
+        </h2>
+        <div class="shapechart">
+    </div>
+      </div>
+        </div>
+        <hr>
+      <p class="credit">
+      </p>
+
+      </div>
+    
+  </body>
+</html>
