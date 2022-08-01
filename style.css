@@ -390,6 +390,19 @@ footer {
   pointer-events: none;
 }
 
+.hometitle {
+  animation: 5s colorshift infinite;
+}
+
+@keyframes colorshift {
+  0%   { background-color: var(--lightblue); }
+  32% { background-color: var(--lightblue); }
+  33%   { background-color: var(--orange) }
+  75% { background-color: var(--orange) }
+  76% { background-color: var(--pink) }
+  100% { background-color: var(--pink) }
+}
+
 .shape svg {
   fill: gainsboro;
   transition: .2s;
@@ -446,7 +459,7 @@ h4 img {
 }
 
 .wide {
-  max-width: 1100px;
+  max-width: 900px;
 }
 
 .colorselect .color {
@@ -745,17 +758,19 @@ li {
   transform: translateY(2px);
 }
 
-.hometitle .button {
-  display: block;
-  width: 100%;
-  text-align: center;
-}
-
 @media screen and (max-width: 600px) {
   .birdheader h1 {
     font-size: 1.2rem;
     letter-spacing: -.3px;
   }
+  
+  .hometitle .button {
+  display: block;
+  margin-top: 20px;
+  float: inherit;
+  width: 100%;
+  text-align: center;
+}
   
   #colorchart {
   padding-right: 0;
