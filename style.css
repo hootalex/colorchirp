@@ -810,11 +810,15 @@ li {
   
   .pagepane {
     width: 100%;
-    transform: translateY(20%);
+    transform: translateY(100%);
+    pointer-events: none;
+    touch-action: none;
   }
   
   .paneshow {
   transform: translateY(0%);
+    pointer-events: all;
+    touch-action: auto;
 }
   
   .filters {
