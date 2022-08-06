@@ -52,21 +52,21 @@ var shapechart = [
   
 ["Loop", "90", "var(--neutral3)", loop],
   
-["Bouba", "50", "var(--neutral1)", bouba],
+["Bouba", "50", "var(--neutral2)", bouba],
     
 ["Wave", "30", "var(--neutral1)", wave],
+  
+["Kiki", "25", "var(--neutral3)", kiki],
+  
+["Zigzag", "24", "var(--neutral2)", zigzag],
 
-["Rhombus", "11", "var(--neutral2)", rhombus],
+["Rhombus", "11", "var(--neutral1)", rhombus],
   
 ["Circle", "10", "var(--neutral3)", circle],
   
 ["Diamond", "10", "var(--neutral2)", diamond],
 
-["Triangle", "8" , "var(--neutral3)", triangle],
-
-["Kiki", "25", "var(--neutral1)", kiki],
-  
-["Zigzag", "24", "var(--neutral2)", zigzag],
+["Triangle", "8" , "var(--neutral1)", triangle],
   
 ["Square", "3", "var(--neutral3)", square],
   
