@@ -149,8 +149,13 @@ nav a {
   overflow: hidden;
 }
 
-.birdcard::after {
-    content: "";
+.birdcard:hover {
+  transform: translateY(-1px);
+  background-color: white;
+}
+
+/* .birdcard::after {
+  content: "";
   background: #ffffff;
   position: absolute;
   z-index: -1;
@@ -170,7 +175,7 @@ nav a {
   transform: scale(1, 1);
   opacity: 1;
 }
-
+ */
 .sound {
   border: 1px solid rgba(0,0,0,.1);
   color: var(--neutral3);
