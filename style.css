@@ -64,7 +64,7 @@
   user-select: none;
   text-align: center;
   height: 0;
-  padding-top: 10px;
+  padding: 10px;
 }
 
 .filters {
@@ -143,11 +143,11 @@ nav a {
   transition: .15s;
 }
 
-.birdcard {
+/* .birdcard {
   position: relative;
   z-index: 1;
   overflow: hidden;
-}
+} */
 
 .birdcard:hover {
   transform: translateY(-1px);
@@ -189,6 +189,10 @@ nav a {
   position: absolute;
   top: 5px;
   right: 5px;
+}
+
+.sound, #play, #x, .button {
+    transition: .12s;
 }
 
 .birdcard svg {
@@ -795,6 +799,10 @@ li {
   .birdheader h1 {
     font-size: 1.2rem;
     letter-spacing: -.3px;
+  }
+  
+  .birdcard {
+    width: 32%;
   }
   
   .hometitle .button {
