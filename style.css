@@ -193,6 +193,11 @@ nav a {
 
 .sound, #play, #x, .button {
     transition: .12s;
+  user-select: none;
+}
+
+.sound:active, #play:active, #x:active, .button:active {
+    transform: scale(.9);
 }
 
 .birdcard svg {
