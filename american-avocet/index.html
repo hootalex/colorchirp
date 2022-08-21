@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>American Avocet Sound Survey</title>
+    <link rel="stylesheet" href="/style.css" />
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+  integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+  crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js" integrity="sha512-6+YN/9o9BWrk6wSfGxQGpt3EUK6XeHi6yeHV+TYD2GR0Sj/cggRpXr1BrAQf0as6XslxomMUxXp2vIl+fv0QRA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="/shapes.js" defer></script>
+    <script src="/data/american-avocet.js" defer></script>
+<meta name="viewport" content="width=device-width, user-scalable=no">
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://cdn.glitch.global/457b3231-6ea2-4da0-a5e5-e4f8765ce99d/colorchirp.png?v=1658613330136"
+    />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="birdheader">
+        <h1>
+         <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 821.01001 422" style="enable-background:new 0 0 821.01001 422;" xml:space="preserve">
+<path d="M810.5481,46.36c-11.68976-6.15252-26.46924-12.68976-40.45923-16.7048C743.35571,17.33037,712.22351,4.22,664.52808,4.22
+	c-75.45996,0-114.65997,35.28-165.62,105.84L240.93799,251.52747l-194.7899,31.99252
+	c-16.01484,3.55884,35.81827,38.61752,54.30524,45.04749L12.82809,376.62c-20.58,10.78,33.32,41.16,49.98,41.16l252.84001-37.23999
+	c82.31998,0,167.57999,28.41998,285.17996-1.96002c167.763-45.59708,71.19403-246.01576,143.23224-319.48248
+	c23.45569-7.40772,46.60889-13.38755,62.56781-5.87749C811.52808,56.16,815.44806,49.3,810.5481,46.36z"/>
+</svg>
+
+American Avocet
+        </h1>
+        <div id="play" class="wb-icon"><div class="sicon">ψ</div></div>
+      </div>
+
+      <div id="headerstats">
+        <p>
+          <span id="responses"></span> responses
+        </p>
+        <p>
+          Aug. 6–21, 2022
+        </p>
+      </div>
+      <hr>
+      <div id="commonanswer">
+      <div>
+
+        <h2>Most votes</h2>
+        <p id="winningresult">
+          <span id="wincolor"></span>, <span id="winshape"></span>
+        </p>
+      </div>
+<svg id="winner" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 64.61926 32.30963" style="fill: rgb(9, 58, 198);" xml:space="preserve">
+
+</svg>
+      </div>
+      <hr>
+      <div class="chartcontainer">
+        
+            <div id="colorchart">
+        <h2>
+          Colors chosen
+        </h2>
+        <div class="colorchart">
+    </div>
+<!--         <span class="editorial">No single winner, but bright warmer colors mostly avoided</span> -->
+      </div>
+<!--       <hr> -->
+     <div id="shapechart">
+                              <h2>
+          Shapes chosen
+        </h2>
+        <div class="shapechart">
+    </div>
+      </div>
+        </div>
+        <hr>
+      <p class="credit">
+      </p>
+
+      </div>
+  </body>
+</html>
