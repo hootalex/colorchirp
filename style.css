@@ -273,7 +273,7 @@ width: 25px;
 
 @font-face {
   font-family: "Nay Aug";
-  src: url("https://cdn.glitch.global/cedc551f-8766-4635-b71b-ca089ffe676c/NayAugp-Regular.ttf?v=1646230944800") format("truetype")
+  src: url("https://cdn.glitch.global/63045805-2b1f-4827-b853-a78aa6252a44/NayAugp-Regular.ttf?v=1661090044648") format("truetype")
 }
 
 @font-face {
@@ -419,8 +419,8 @@ footer {
 }
 
 @keyframes slide {
-0%   { transform: translateX(20%) }
-  100% { transform: translateX(0%) }
+0%   { transform: translateX(20%) scale(1.2, 1); }
+  100% { transform: translateX(0%) scale(1, 1); }
 }
 
 .screen {
@@ -788,8 +788,8 @@ li {
 }
 
 @keyframes placeback {
-0%   { transform: translateX(-5%) }
-  100% { transform: translateX(0%) }
+0%   { transform: translateX(-5%) scale(.9, 1); }
+  100% { transform: translateX(0%) scale(1, 1); }
 }
 
 .placeback {
@@ -847,13 +847,13 @@ li {
 }
   
     @keyframes slide {
-0%   { transform: translateY(0%) }
-  100% { transform: translateY(-5%) }
+0%   { transform: translateY(0%) scale(1, 1); }
+  100% { transform: translateY(-1%) scale(1, 1.1); }
 }
   
   @keyframes placeback {
-0%   { transform: translateY(-5%) }
-  100% { transform: translateY(0%) }
+0%   { transform: translateY(-1%) scale(1, .98); }
+  100% { transform: translateY(0%) scale(1, 1); }
 }
   
   .pagepane {
