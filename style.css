@@ -201,8 +201,8 @@ nav a {
 }
 
 .birdcard svg {
-  height: 40%;
-  max-width: 80px;
+  height: 28%;
+  max-width: 60px;
   margin-bottom: 10px;
   fill: var(--neutral3);
 }
@@ -806,6 +806,14 @@ li {
     letter-spacing: -.3px;
   }
   
+  .birdcard h4 {
+  user-select: none;
+  text-align: center;
+  height: 0;
+  padding: 10px;
+    font-size:.9rem;
+}
+  
   .birdcard {
     width: 32%;
   }
@@ -848,7 +856,7 @@ li {
   
     @keyframes slide {
 0%   { transform: translateY(0%) scale(1, 1); }
-  100% { transform: translateY(-1%) scale(1, 1.1); }
+  100% { transform: translateY(-1%) scale(1, 1); }
 }
   
   @keyframes placeback {
