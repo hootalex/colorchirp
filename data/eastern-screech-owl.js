@@ -1,4 +1,4 @@
-var responses = 796
+var responses = 156
 var topcolor = "Purple"
 var topshape = "bouba"
 
