@@ -62,14 +62,16 @@ var shapechart = [
   
 ["Diamond", "27", "var(--neutral2)", diamond],
   
+["Half-circle", "22" , "var(--neutral2)", halfcircle],
+  
 ["Bouba", "18", "var(--neutral1)", bouba],
+  
+["Loop", "15", "var(--neutral3)", loop],
   
 ["Wave", "11", "var(--neutral1)", wave],
   
 ["Circle", "5", "var(--neutral3)", circle],
-  
-["Half-circle", "22" , "var(--neutral2)", halfcircle],
-  
+
 ["Square", "4", "var(--neutral3)", square],
 
 ];
