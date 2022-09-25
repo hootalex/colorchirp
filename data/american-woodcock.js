@@ -42,9 +42,9 @@ var colorchart = [
   
 ["Light blue", "15", "var(--lightblue)"],
   
-["Blue", "9", "var(--blue)"],
-
 ["Pink", "10", "var(--pink)"],
+  
+["Blue", "9", "var(--blue)"],
 
 ];
   
