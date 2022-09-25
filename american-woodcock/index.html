@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>American Woodcock Sound Survey</title>
+    <link rel="stylesheet" href="/style.css" />
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+  integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+  crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js" integrity="sha512-6+YN/9o9BWrk6wSfGxQGpt3EUK6XeHi6yeHV+TYD2GR0Sj/cggRpXr1BrAQf0as6XslxomMUxXp2vIl+fv0QRA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="/shapes.js" defer></script>
+    <script src="/data/american-woodcock.js" defer></script>
+<meta name="viewport" content="width=device-width, user-scalable=no">
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://cdn.glitch.global/457b3231-6ea2-4da0-a5e5-e4f8765ce99d/colorchirp.png?v=1658613330136"
+    />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="birdheader">
+        <h1>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="13.1495543in" height="7.937076in" viewBox="0 0 946.7679076 571.4694704">
+  <path d="M930.6676791,204.7281947c-59.5690942-31.1592627-155.9887964-77.744314-241.1749854-119.7201233-26.5257959-76.3241992-32.8797656-78.2528564-80.2650146-79.2198767-35.28-.98-62.72,7.84-82.32,26.46-25.48,22.54-38.22,55.86-38.22,55.86C345.6076791,44.9881947,137.8476791,238.0481947,19.2676791,215.5081947l-9.8,20.58c30.38,11.76,66.64,51.94,85.26,69.58,73.10995,69.8117212,177.978324,111.2497986,282.4365503,120.5228931,.439397,14.9643201,3.8911096,27.6838635,7.6434497,42.1571069l17.5786304,67.6777209-47.9586304,.9222791c-10.78,0-11.76,13.72,0,13.72h37.7750403c.7040161,.3962708,1.4981128,.7326672,2.4049597,.98l49,13.72c10.78,2.94,14.7-11.76,4.9-14.7h7.84c1.0503418,0,1.9946326-.1297375,2.8438184-.3575708,.8970972,.2288501,1.9066455,.3575708,3.0361816,.3575708h37.7750403c.7040161,.3962708,1.4981128,.7326672,2.4049597,.98l49,13.72c10.78,2.94,14.7-11.76,4.9-14.7h7.84c11.76,0,10.78-15.68,0-15.68l-74.3870483,1.4305225c.5470032-1.7995178,.594137-3.9257422-.0929517-6.3305225l-16.66-63.7c-3.660824-14.1204578-6.4823914-26.0099561-6.5325159-40.2819836,50.2724329-4.7318018,98.1799817-17.6014795,139.8125159-39.0980164,111.2455518-57.5407861,138.012699-209.8487805,77.5774316-255.8368237,81.1996753,26.4138831,161.5521387,55.3275916,241.9025684,83.3568237,9.8,3.92,17.64-1.96,4.9-9.8ZM453.4076791,468.3481947l16.66,64.68c.3534436,1.4136548,.8380005,2.6542664,1.4176025,3.7419922l-9.2576025,.1780078c-.0668726,0-.1287805,.006759-.1948755,.0078357-1.3940955-1.1970667-3.2981689-1.9678357-5.6851245-1.9678357l-33.7167493,.6483887-18.2232507-69.2483887c-3.5319836-13.6234595-6.2777063-25.1743481-6.5121191-38.787699,16.0708276,.7701709,32.0799268,.7731616,47.9122742-.0113049,.6055615,14.3655176,3.964502,26.7370605,7.599845,40.7590039Z"/>
+</svg>
+American Woodcock
+        </h1>
+        <div id="play" class="wb-icon"><div class="sicon">ψ</div></div>
+      </div>
+
+      <div id="headerstats">
+        <p>
+          <span id="responses"></span> responses
+        </p>
+        <p>
+          Sep. 18–25, 2022
+        </p>
+      </div>
+      <hr>
+      <div id="commonanswer">
+      <div>
+
+        <h2>Most votes</h2>
+        <p id="winningresult">
+          <span id="wincolor"></span>, <span id="winshape"></span>
+        </p>
+      </div>
+<svg id="winner" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 64.61926 32.30963" style="fill: rgb(9, 58, 198);" xml:space="preserve">
+
+</svg>
+      </div>
+      <hr>
+      <div class="chartcontainer">
+        
+            <div id="colorchart">
+        <h2>
+          Colors chosen
+        </h2>
+        <div class="colorchart">
+    </div>
+<!--         <span class="editorial">No single winner, but bright warmer colors mostly avoided</span> -->
+      </div>
+<!--       <hr> -->
+     <div id="shapechart">
+                              <h2>
+          Shapes chosen
+        </h2>
+        <div class="shapechart">
+    </div>
+      </div>
+        </div>
+        <hr>
+      <p class="credit">
+      </p>
+
+      </div>
+  </body>
+</html>
