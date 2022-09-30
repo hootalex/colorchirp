@@ -785,6 +785,8 @@ li {
   margin: initial;
   animation: slide .3s;
   box-sizing: border-box;
+/*   height: 100vh;
+  overflow: hidden; */
 }
 
 @keyframes placeback {
