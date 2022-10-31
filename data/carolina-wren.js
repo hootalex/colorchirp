@@ -50,29 +50,29 @@ var colorchart = [
   
 var shapechart = [
   
-["Zigzag", "135", "var(--neutral2)", zigzag],
+["Loop", "41", "var(--neutral3)", loop],
   
-["Kiki", "101", "var(--neutral1)", kiki],
+["Bouba", "35", "var(--neutral2)", bouba],
   
-["Triangle", "57" , "var(--neutral3)", triangle],
+["Zigzag", "25", "var(--neutral1)", zigzag],
   
-["Rhombus", "47", "var(--neutral2)", rhombus],
+["Wave", "18", "var(--neutral3)", wave],
   
-["Line", "36", "var(--neutral1)", line],
+["Kiki", "16", "var(--neutral2)", kiki],
   
-["Diamond", "27", "var(--neutral2)", diamond],
+["Triangle", "9" , "var(--neutral1)", triangle],
   
-["Half-circle", "22" , "var(--neutral2)", halfcircle],
+["Circle", "7", "var(--neutral3)", circle],
   
-["Bouba", "18", "var(--neutral1)", bouba],
+["Diamond", "6", "var(--neutral2)", diamond],
   
-["Loop", "15", "var(--neutral3)", loop],
-  
-["Wave", "11", "var(--neutral1)", wave],
-  
-["Circle", "5", "var(--neutral3)", circle],
+["Rhombus", "5", "var(--neutral1)", rhombus],
 
-["Square", "4", "var(--neutral3)", square],
+["Half-circle", "2" , "var(--neutral3)", halfcircle],
+
+["Square", "0", "var(--neutral2)", square],
+  
+["Line", "0", "var(--neutral1)", line],
 
 ];
 
