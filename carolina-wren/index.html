@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Carolina Wren Sound Survey</title>
+    <link rel="stylesheet" href="/style.css" />
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+  integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+  crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js" integrity="sha512-6+YN/9o9BWrk6wSfGxQGpt3EUK6XeHi6yeHV+TYD2GR0Sj/cggRpXr1BrAQf0as6XslxomMUxXp2vIl+fv0QRA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="/shapes.js" defer></script>
+    <script src="/data/carolina-wren.js" defer></script>
+<meta name="viewport" content="width=device-width, user-scalable=no">
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://cdn.glitch.global/457b3231-6ea2-4da0-a5e5-e4f8765ce99d/colorchirp.png?v=1658613330136"
+    />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="birdheader">
+        <h1>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="11.6376816in" height="7.6165899in" viewBox="0 0 837.9130753 548.3944704">
+  <path d="M796.1764379,70.4661795c-14.25-2.85-51.3-12.35-85.5-14.25-6.65-22.8-30.4-39.9-85.5-39.9-108.3,0-102.6,76-158.65,110.2-83.6,0-196.65,26.6-280.25,72.2C143.5264379,140.7661795,92.2264379,51.4661795,85.5764379,42.9161795c-5.7-7.6-75.05,5.7-59.85,29.45l103.55,142.5c102.5492645,141.3516388,146.7096527,181.1727814,266.1420013,183.2569366-.1189819,16.2321625,3.5006317,29.4788757,7.4579987,44.7430634l17.040509,65.605954-46.490509,.894046c-10.45,0-11.4,13.3,0,13.3h36.6186615c.6824646,.38414,1.4522522,.7102386,2.3313385,.95l47.5,13.3c10.45,2.85,14.25-11.4,4.75-14.25h7.6c1.0181885,0,1.9335724-.125766,2.7567627-.3466248,.869635,.2218445,1.8482788,.3466248,2.9432373,.3466248h36.6186615c.6824646,.38414,1.4522522,.7102386,2.3313385,.95l47.5,13.3c10.45,2.85,14.25-11.4,4.75-14.25h7.6c11.4,0,10.45-15.2,0-15.2l-72.1098938,1.386731c.5302582-1.7444305,.5759491-3.8055664-.0901062-6.136731l-16.15-61.75c-4.4918579-17.3257874-7.6756104-31.1924591-5.7607086-50.6592255,213.4047668-48.0641785,169.3918884-299.2135864,261.3107086-301.7907745,8.55,0,41.8-1.9,54.15-1.9,27.55,0,30.4-9.5-1.9-16.15ZM469.3764379,442.8661795l16.15,62.7c.3426239,1.3703796,.8123474,2.5730133,1.3742065,3.6274414l-8.9742065,.1725586c-.0648254,0-.1248383,.0065521-.1889099,.0075958-1.3514191-1.1604218-3.1972046-1.9075958-5.5110901-1.9075958l-32.6846039,.62854-17.6653961-67.12854c-3.8704498-14.9288696-6.7685181-27.2897705-6.2732239-42.8759399,16.5950806-.3814148,32.0391907-1.7222229,46.4236542-3.9166626-.7961121,18.0758026,3.0765411,32.2109375,7.3495697,48.6926025Z"/>
+</svg>
+Carolina Wren
+        </h1>
+        <div id="play" class="wb-icon"><div class="sicon">ψ</div></div>
+      </div>
+
+      <div id="headerstats">
+        <p>
+          <span id="responses"></span> responses
+        </p>
+        <p>
+          Sep. 25–Oct 30, 2022
+        </p>
+      </div>
+      <hr>
+      <div id="commonanswer">
+      <div>
+
+        <h2>Most votes</h2>
+        <p id="winningresult">
+          <span id="wincolor"></span>, <span id="winshape"></span>
+        </p>
+      </div>
+<svg id="winner" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 64.61926 32.30963" style="fill: rgb(9, 58, 198);" xml:space="preserve">
+
+</svg>
+      </div>
+      <hr>
+      <div class="chartcontainer">
+        
+            <div id="colorchart">
+        <h2>
+          Colors chosen
+        </h2>
+        <div class="colorchart">
+    </div>
+<!--         <span class="editorial">No single winner, but bright warmer colors mostly avoided</span> -->
+      </div>
+<!--       <hr> -->
+     <div id="shapechart">
+                              <h2>
+          Shapes chosen
+        </h2>
+        <div class="shapechart">
+    </div>
+      </div>
+        </div>
+        <hr>
+      <p class="credit">
+      </p>
+
+      </div>
+  </body>
+</html>
