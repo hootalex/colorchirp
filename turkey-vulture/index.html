@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Carolina Wren Sound Survey</title>
+    <link rel="stylesheet" href="/style.css" />
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+  integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+  crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js" integrity="sha512-6+YN/9o9BWrk6wSfGxQGpt3EUK6XeHi6yeHV+TYD2GR0Sj/cggRpXr1BrAQf0as6XslxomMUxXp2vIl+fv0QRA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="/shapes.js" defer></script>
+    <script src="/data/turkey-vulture.js" defer></script>
+<meta name="viewport" content="width=device-width, user-scalable=no">
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://cdn.glitch.global/457b3231-6ea2-4da0-a5e5-e4f8765ce99d/colorchirp.png?v=1658613330136"
+    />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="birdheader">
+        <h1>
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 782.45386 713.53381" style="enable-background:new 0 0 782.45386 713.53381;" xml:space="preserve">
+<path d="M732.09491,114.1021l-69.29999-61.20002c-25.20001-22.5-61.20001-25.20001-87.29999,5.39996
+	c-55.80005,0-51.30005,63-58.5,96.30005c-7.20004,28.79999-10.80008,36.89996-54.90005,49.5
+	c-174.59998,48.59998-207,53.09999-261.90002,158.39998l-48.263,91.77289l-107.43695,22.5271
+	c-7.7666,20.71088-7.24988,39.76575,6.29236,57.16687l-0.8924,0.43317c-16.19995,30.59998-16.19995,69.29999,14.40002,88.20001
+	l87.04816-36.97028l20.95184-0.82977c27.01758-1.17468,53.91052-2.47937,80.60278-4.52374
+	c11.08508,18.81757,35.99707,33.32379,57.09723,33.32379l91.44385-50.85175c5.60974,13.48694,11.41455,21.83551,17.01562,25.74622
+	l12.72693,62.27118l-32.98645,0.63434c-9.89996,0-10.79999,12.59998,0,12.59998h34.69135
+	c0.64655,0.36395,1.37585,0.67291,2.20868,0.90002l45,12.59998c9.90002,2.70001,13.5-10.79999,4.5-13.5h7.20001h1.39136
+	c0.64655,0.36395,1.37579,0.67291,2.20862,0.90002l45.00003,12.59998c9.90002,2.70001,13.5-10.79999,4.5-13.5h7.20001
+	c10.79999,0,9.90002-14.39996,0-14.39996l-56.10861,1.07898c-0.32361-0.19037-0.66595-0.36078-1.03186-0.50482
+	c0.03613-1.25494-0.09943-2.64368-0.45953-4.17419l-13.05896-60.63098c8.85608-10.39685,15.24554-34.22504,16.31757-66.45233
+	c66.53671-33.25562,112.42502-70.53583,138.94138-157.31665c14.40002-45.90002,14.40002-118.80006,14.40002-170.10005v-43.20001
+	c0-11.69995,12.59998-18.89996,24.29999-15.29999l45.90002,13.5c6.29999,1.79999,2.70001,11.70001,0,18
+	C743.79492,164.50206,751.8949,131.20207,732.09491,114.1021z M449.4949,649.60211l-13.35028-63.89062
+	c4.14203-4.69623,7.75751-12.30762,10.56049-22.32843c5.78278,13.72064,11.7655,22.00763,17.51312,25.62012l12.27667,56.9989
+	c0.29993,1.42462,0.70728,2.70605,1.18628,3.87146l-28.02777,0.539C449.60263,650.14362,449.56027,649.87994,449.4949,649.60211z"/>
+</svg>
+Turkey Vulture
+        </h1>
+        <div id="play" class="wb-icon"><div class="sicon">ψ</div></div>
+      </div>
+
+      <div id="headerstats">
+        <p>
+          <span id="responses"></span> responses
+        </p>
+        <p>
+          Oct. 30–Jan 7, 2023
+        </p>
+      </div>
+      <hr>
+      <div id="commonanswer">
+      <div>
+
+        <h2>Most votes</h2>
+        <p id="winningresult">
+          <span id="wincolor"></span>, <span id="winshape"></span>
+        </p>
+      </div>
+<svg id="winner" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 64.61926 32.30963" style="fill: rgb(9, 58, 198);" xml:space="preserve">
+
+</svg>
+      </div>
+      <hr>
+      <div class="chartcontainer">
+        
+            <div id="colorchart">
+        <h2>
+          Colors chosen
+        </h2>
+        <div class="colorchart">
+    </div>
+<!--         <span class="editorial">No single winner, but bright warmer colors mostly avoided</span> -->
+      </div>
+<!--       <hr> -->
+     <div id="shapechart">
+                              <h2>
+          Shapes chosen
+        </h2>
+        <div class="shapechart">
+    </div>
+      </div>
+        </div>
+        <hr>
+      <p class="credit">
+      </p>
+
+      </div>
+  </body>
+</html>
