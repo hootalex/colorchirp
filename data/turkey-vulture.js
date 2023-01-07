@@ -1,16 +1,16 @@
 var responses = 273
 var topcolor = "Black"
-var topshape = "Loop"
+var topshape = "zigzag"
 
-$("#winner").html(loop)
+$("#winner").html(zigzag)
 $("#winner svg").css("fill","var(--black)")
 
 const birds =  [
    {
- "name": "Carolina Wren",
-    "url" : "https://cdn.glitch.global/457b3231-6ea2-4da0-a5e5-e4f8765ce99d/XC713784%20-%20Carolina%20Wren%20-%20Thryothorus%20ludovicianus_01.mp3?v=1664118396595",
-    "copyright" : "Bobby Wilcox",
-    "xenolink": "https://xeno-canto.org/713784"
+ "name": "Turkey Vulture",
+    "url" : "https://cdn.glitch.global/457b3231-6ea2-4da0-a5e5-e4f8765ce99d/XC520288%20-%20Turkey%20Vulture%20-%20Cathartes%20aura_01.mp3?v=1667176929960",
+    "copyright" : "Cristian Pinto",
+    "xenolink": "https://xeno-canto.org/520288",
   }
 ]
 
@@ -26,53 +26,53 @@ $( document ).ready(function() {
     
 var colorchart = [
   
-["Yellow", "59" , "var(--yellow)"],
+["Black", "114", "var(--black)"],
   
-["Light blue", "30", "var(--lightblue)"],
+["Brown", "76", "var(--brown)"],
   
-["Pink", "23", "var(--pink)"],
+["Blue", "14", "var(--blue)"],
   
-["Orange", "16" , "var(--orange)"],
+["Red", "13", "var(--red)"],
   
-["Green", "10", "var(--green)"],
-   
-["Red", "10", "var(--red)"],
+["Orange", "13" , "var(--orange)"],
   
-["Purple", "6", "var(--purple)"],
+["Purple", "12", "var(--purple)"],
   
-["Brown", "5", "var(--brown)"],
+["Light blue", "11", "var(--lightblue)"],
   
-["Blue", "3", "var(--blue)"],
+["Yellow", "8" , "var(--yellow)"],
   
-["Black", "1", "var(--black)"],
+["Green", "8", "var(--green)"],
+  
+["Pink", "2", "var(--pink)"],
 
 ];
   
 var shapechart = [
   
-["Loop", "41", "var(--neutral3)", loop],
+["Zigzag", "84", "var(--neutral3)", zigzag],
   
-["Bouba", "35", "var(--neutral2)", bouba],
+["Line", "51", "var(--neutral2)", line],
   
-["Zigzag", "25", "var(--neutral1)", zigzag],
+["Kiki", "47", "var(--neutral1)", kiki],
   
-["Wave", "18", "var(--neutral3)", wave],
+["Rhombus", "24", "var(--neutral3)", rhombus],
   
-["Kiki", "16", "var(--neutral2)", kiki],
+["Half-circle", "11" , "var(--neutral2)", halfcircle],
   
-["Triangle", "9" , "var(--neutral1)", triangle],
+["Bouba", "10", "var(--neutral1)", bouba],
   
-["Circle", "7", "var(--neutral3)", circle],
+["Wave", "10", "var(--neutral3)", wave],
+  
+["Triangle", "9" , "var(--neutral2)", triangle],
+  
+["Square", "9", "var(--neutral1)", square],
+  
+["Loop", "6", "var(--neutral3)", loop],
   
 ["Diamond", "6", "var(--neutral2)", diamond],
   
-["Rhombus", "5", "var(--neutral1)", rhombus],
-
-["Half-circle", "2" , "var(--neutral3)", halfcircle],
-
-["Square", "0", "var(--neutral2)", square],
-  
-["Line", "0", "var(--neutral1)", line],
+["Circle", "5", "var(--neutral1)", circle],
 
 ];
 

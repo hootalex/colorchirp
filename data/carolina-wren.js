@@ -1,6 +1,6 @@
 var responses = 163
 var topcolor = "Yellow"
-var topshape = "Loop"
+var topshape = "loop"
 
 $("#winner").html(loop)
 $("#winner svg").css("fill","var(--yellow)")
