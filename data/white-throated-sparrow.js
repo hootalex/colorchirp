@@ -7,10 +7,10 @@ $("#winner svg").css("fill","var(--yellow)")
 
 const birds =  [
    {
- "name": "Turkey Vulture",
-    "url" : "https://cdn.glitch.global/457b3231-6ea2-4da0-a5e5-e4f8765ce99d/XC520288%20-%20Turkey%20Vulture%20-%20Cathartes%20aura_01.mp3?v=1667176929960",
-    "copyright" : "Cristian Pinto",
-    "xenolink": "https://xeno-canto.org/520288",
+ "name": "White-throated Sparrow",
+    "url" : "https://cdn.glitch.global/457b3231-6ea2-4da0-a5e5-e4f8765ce99d/XC626756%20-%20White-throated%20Sparrow%20-%20Zonotrichia%20albicollis_01.mp3?v=1673106804493",
+    "copyright" : "Sue Riffe",
+    "xenolink": "https://xeno-canto.org/626756",
   }
 ]
 
@@ -34,45 +34,45 @@ var colorchart = [
   
 ["Pink", "15", "var(--pink)"],
   
+["Orange", "9" , "var(--orange)"],
+  
+["Purple", "9", "var(--purple)"],
+  
+["Red", "4", "var(--red)"],
+  
 ["Black", "3", "var(--black)"],
   
 ["Brown", "2", "var(--brown)"],
   
 ["Blue", "1", "var(--blue)"],
-  
-["Red", "4", "var(--red)"],
-  
-["Orange", "9" , "var(--orange)"],
-  
-["Purple", "9", "var(--purple)"],
 
 ];
   
 var shapechart = [
   
-["Zigzag", "25", "var(--neutral3)", zigzag],
+["Loop", "54", "var(--neutral3)", loop],
   
-["Line", "9", "var(--neutral2)", line],
+["Zigzag", "25", "var(--neutral2)", zigzag],
   
-["Kiki", "7", "var(--neutral1)", kiki],
+["Wave", "23", "var(--neutral1)", wave],
   
-["Rhombus", "9", "var(--neutral3)", rhombus],
+["Bouba", "13", "var(--neutral3)", bouba],
   
 ["Half-circle", "11" , "var(--neutral2)", halfcircle],
   
-["Bouba", "13", "var(--neutral1)", bouba],
+["Diamond", "10", "var(--neutral1)", diamond],
   
-["Wave", "23", "var(--neutral3)", wave],
+["Line", "9", "var(--neutral3)", line],
   
-["Triangle", "5" , "var(--neutral2)", triangle],
+["Rhombus", "9", "var(--neutral2)", rhombus],
+  
+["Kiki", "7", "var(--neutral1)", kiki],
+  
+["Triangle", "5" , "var(--neutral3)", triangle],
+  
+["Circle", "2", "var(--neutral2)", circle],
   
 ["Square", "1", "var(--neutral1)", square],
-  
-["Loop", "54", "var(--neutral3)", loop],
-  
-["Diamond", "10", "var(--neutral2)", diamond],
-  
-["Circle", "2", "var(--neutral1)", circle],
 
 ];
 
