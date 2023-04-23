@@ -50,17 +50,17 @@ var colorchart = [
   
 var shapechart = [
 
-["Circle", "28", "var(--neutral3)", circle],
+["Circle", "28", "var(--neutral1)", circle],
   
-["Bouba", "26", "var(--neutral1)", bouba],
+["Bouba", "26", "var(--neutral2)", bouba],
   
-["Zigzag", "21", "var(--neutral2)", zigzag],
+["Zigzag", "21", "var(--neutral3)", zigzag],
   
 ["Wave", "16", "var(--neutral1)", wave],
 
 ["Half-circle", "14" , "var(--neutral2)", halfcircle],
   
-["Line", "12", "var(--neutral1)", line],
+["Line", "12", "var(--neutral3)", line],
   
 ["Kiki", "12", "var(--neutral1)", kiki],
 
@@ -68,7 +68,7 @@ var shapechart = [
   
 ["Loop", "9", "var(--neutral3)", loop],
 
-["Triangle", "8" , "var(--neutral3)", triangle],
+["Triangle", "8" , "var(--neutral1)", triangle],
 
 ["Rhombus", "5", "var(--neutral2)", rhombus],
 
