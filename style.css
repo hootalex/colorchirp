@@ -68,8 +68,12 @@
 }
 
 .filters {
-  opacity: .3;
-  pointer-events: none;
+/*   opacity: .3;
+  pointer-events: none; */
+}
+
+.fadeout {
+  opacity: .2;
 }
 
 .min {

@@ -143,3 +143,18 @@ sound.play();
   });
 
 });
+
+function filtercards(c) {
+  $(".birdcard").addClass("fadeout");
+  $("."+c).removeClass("fadeout")
+}
+
+$( ".shapefilter div" ).on( "click", function() {
+  console.log( $( this ).attr("shape") );
+  filtercards($( this ).attr("shape"))
+});
+
+$( ".color" ).on( "click", function() {
+  console.log( $( this ).attr("color") );
+  filtercards($( this ).attr("color"))
+});
