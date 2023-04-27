@@ -76,6 +76,10 @@
   opacity: .2;
 }
 
+/* .selected {
+  border: 1px solid black;
+} */
+
 .min {
   opacity: 0.2;
 }
@@ -112,6 +116,16 @@ cursor: pointer;
 
 nav {
   max-width: 400px;
+}
+
+.showonly {
+  width: 100px;
+}
+
+.border {
+  border: 1px solid black;
+  cursor: pointer;
+  padding: 5px;
 }
 
 nav a {

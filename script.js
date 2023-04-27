@@ -145,16 +145,28 @@ sound.play();
 });
 
 function filtercards(c) {
+  $(".shapefilter div, .color").removeClass("selected");
   $(".birdcard").addClass("fadeout");
-  $("."+c).removeClass("fadeout")
+  $("."+c).removeClass("fadeout");
+  $(".showonly").html("Show all");
+$(".showonly").addClass("border");
 }
 
+$( ".showonly" ).on( "click", function() {
+$(".shapefilter div, .color").removeClass("selected");
+$(".birdcard").removeClass("fadeout");
+  $(".showonly").html("Show only");
+$(".showonly").removeClass("border");
+});
+
 $( ".shapefilter div" ).on( "click", function() {
-  console.log( $( this ).attr("shape") );
   filtercards($( this ).attr("shape"))
+  $(this).addClass("selected")
+  console.log( $( this ).attr("shape") );
 });
 
 $( ".color" ).on( "click", function() {
-  console.log( $( this ).attr("color") );
   filtercards($( this ).attr("color"))
+  $(this).addClass("selected")
+  console.log( $( this ).attr("color") );
 });
