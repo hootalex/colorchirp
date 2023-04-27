@@ -73,7 +73,8 @@
 }
 
 .fadeout {
-  opacity: .2;
+  opacity: .1;
+  pointer-events: none;
 }
 
 /* .selected {
@@ -116,10 +117,6 @@ cursor: pointer;
 
 nav {
   max-width: 400px;
-}
-
-.showonly {
-  width: 100px;
 }
 
 .border {
