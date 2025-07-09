@@ -8,7 +8,7 @@ $("#winner svg").css("fill","var(--yellow)")
 const birds =  [
    {
  "name": "White-throated Sparrow",
-    "url" : "/glitch-assets/457b3231-6ea2-4da0-a5e5-e4f8765ce99d/XC626756%20-%20White-throated%20Sparrow%20-%20Zonotrichia%20albicollis_01.mp3?v=1673106804493",
+    "url" : "glitch-assets/457b3231-6ea2-4da0-a5e5-e4f8765ce99d/XC626756%20-%20White-throated%20Sparrow%20-%20Zonotrichia%20albicollis_01.mp3?v=1673106804493",
     "copyright" : "Sue Riffe",
     "xenolink": "https://xeno-canto.org/626756",
   }

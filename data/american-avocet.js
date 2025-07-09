@@ -8,7 +8,7 @@ $("#winner svg").css("fill","var(--yellow)")
 const birds =  [
    {
     "name": "American Avocet",
-    "url" : "/glitch-assets/457b3231-6ea2-4da0-a5e5-e4f8765ce99d/XC304446%20-%20American%20Avocet%20-%20Recurvirostra%20americana_01-trim.mp3?v=1659811679446",
+    "url" : "glitch-assets/457b3231-6ea2-4da0-a5e5-e4f8765ce99d/XC304446%20-%20American%20Avocet%20-%20Recurvirostra%20americana_01-trim.mp3?v=1659811679446",
     "copyright" : "Paul Marvin",
     "xenolink": "https://xeno-canto.org/304446"
   }

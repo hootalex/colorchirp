@@ -8,7 +8,7 @@ $("#winner svg").css("fill","var(--green)")
 const birds =  [
    {
  "name": "American Woodcock",
-    "url" : "/glitch-assets/457b3231-6ea2-4da0-a5e5-e4f8765ce99d/XC709861%20-%20American%20Woodcock%20-%20Scolopax%20minor_01.mp3?v=1663518985200",
+    "url" : "glitch-assets/457b3231-6ea2-4da0-a5e5-e4f8765ce99d/XC709861%20-%20American%20Woodcock%20-%20Scolopax%20minor_01.mp3?v=1663518985200",
     "copyright" : "Joseph Fell",
     "xenolink": "https://xeno-canto.org/709861"
   }

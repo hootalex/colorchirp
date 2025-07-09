@@ -8,7 +8,7 @@ $("#winner svg").css("fill","var(--purple)")
 const birds =  [
    {
     "name": "Eastern whip-poor-will",
-    "url" : "/glitch-assets/457b3231-6ea2-4da0-a5e5-e4f8765ce99d/XC319047%20-%20Eastern%20Whip-poor-will%20-%20Antrostomus%20vociferus_01.mp3?v=1659389444269",
+    "url" : "glitch-assets/457b3231-6ea2-4da0-a5e5-e4f8765ce99d/XC319047%20-%20Eastern%20Whip-poor-will%20-%20Antrostomus%20vociferus_01.mp3?v=1659389444269",
     "copyright" : "Norman Levey",
     "xenolink": "https://xeno-canto.org/319047"
   }

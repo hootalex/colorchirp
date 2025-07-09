@@ -8,7 +8,7 @@ $("#winner svg").css("fill","var(--lightblue)")
 const birds =  [
    {
     "name": "Saw-whet owl",
-    "url" : "/glitch-assets/457b3231-6ea2-4da0-a5e5-e4f8765ce99d/XC533407%20-%20Northern%20Saw-whet%20Owl%20-%20Aegolius%20acadicus_01.mp3?v=1676915412199",
+    "url" : "glitch-assets/457b3231-6ea2-4da0-a5e5-e4f8765ce99d/XC533407%20-%20Northern%20Saw-whet%20Owl%20-%20Aegolius%20acadicus_01.mp3?v=1676915412199",
     "copyright" : "Will Sweet",
     "xenolink": "https://xeno-canto.org/533407"
   }
