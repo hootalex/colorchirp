@@ -8,7 +8,7 @@ $("#winner svg").css("fill","var(--purple)")
 const birds =  [
    {
     "name": "Eastern Screech-Owl",
-    "url" : "https://cdn.glitch.global/457b3231-6ea2-4da0-a5e5-e4f8765ce99d/XC624995%20-%20Eastern%20Screech%20Owl%20-%20Megascops%20asio_01-trimmed.mp3?v=1661090754291",
+    "url" : "/glitch-assets/457b3231-6ea2-4da0-a5e5-e4f8765ce99d/XC624995%20-%20Eastern%20Screech%20Owl%20-%20Megascops%20asio_01-trimmed.mp3?v=1661090754291",
     "copyright" : "Michael & Katie LaTour",
     "xenolink": "https://xeno-canto.org/624995"
   }

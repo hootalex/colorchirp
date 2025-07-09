@@ -8,7 +8,7 @@ $("#winner svg").css("fill","var(--yellow)")
 const birds =  [
    {
  "name": "Carolina Wren",
-    "url" : "https://cdn.glitch.global/457b3231-6ea2-4da0-a5e5-e4f8765ce99d/XC713784%20-%20Carolina%20Wren%20-%20Thryothorus%20ludovicianus_01.mp3?v=1664118396595",
+    "url" : "/glitch-assets/457b3231-6ea2-4da0-a5e5-e4f8765ce99d/XC713784%20-%20Carolina%20Wren%20-%20Thryothorus%20ludovicianus_01.mp3?v=1664118396595",
     "copyright" : "Bobby Wilcox",
     "xenolink": "https://xeno-canto.org/713784"
   }

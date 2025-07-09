@@ -8,7 +8,7 @@ $("#winner svg").css("fill","var(--brown)")
 const birds =  [
    {
     "name": "Atlantic Puffin",
-    "url" : "https://cdn.glitch.global/457b3231-6ea2-4da0-a5e5-e4f8765ce99d/XC667980%20-%20Atlantic%20Puffin%20-%20Fratercula%20arctica.mp3?v=1658842229401",
+    "url" : "/glitch-assets/457b3231-6ea2-4da0-a5e5-e4f8765ce99d/XC667980%20-%20Atlantic%20Puffin%20-%20Fratercula%20arctica.mp3?v=1658842229401",
     "copyright" : "Irish Wildlife Sounds",
     "xenolink": "https://xeno-canto.org/667980"
   }

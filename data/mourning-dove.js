@@ -8,7 +8,7 @@ $("#winner svg").css("fill","var(--purple)")
 const birds =  [
    {
     "name": "Mourning Dove",
-    "url" : "https://cdn.glitch.global/457b3231-6ea2-4da0-a5e5-e4f8765ce99d/XC613539%20-%20Mourning%20Dove%20-%20Zenaida%20macroura_01.m4a?v=1682293565724",
+    "url" : "/glitch-assets/457b3231-6ea2-4da0-a5e5-e4f8765ce99d/XC613539%20-%20Mourning%20Dove%20-%20Zenaida%20macroura_01.m4a?v=1682293565724",
     "copyright" : "Peter Ward and Ken Hall",
     "xenolink": "https://xeno-canto.org/613539"
   }

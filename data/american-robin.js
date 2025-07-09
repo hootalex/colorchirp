@@ -8,7 +8,7 @@ $("#winner svg").css("fill","var(--yellow)")
 const birds =  [
    {
     "name": "American Robin",
-    "url" : "https://cdn.glitch.global/457b3231-6ea2-4da0-a5e5-e4f8765ce99d/XC729933%20-%20American%20Robin%20-%20Turdus%20migratorius%20propinquus_01-trimmed.mp3?v=1659043124446",
+    "url" : "/glitch-assets/457b3231-6ea2-4da0-a5e5-e4f8765ce99d/XC729933%20-%20American%20Robin%20-%20Turdus%20migratorius%20propinquus_01-trimmed.mp3?v=1659043124446",
     "copyright" : "Scott Olmstead",
     "xenolink": "https://xeno-canto.org/729933"
   }
