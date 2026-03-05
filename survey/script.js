@@ -18,7 +18,7 @@ var messagesRef = firebase.database().ref("messages");
 const birds =  [
    {
     "name": "Red-breasted Nuthatch",
-    "url" : "https://cdn.glitch.global/457b3231-6ea2-4da0-a5e5-e4f8765ce99d/XC443284%20-%20Red-breasted%20Nuthatch%20-%20Sitta%20canadensis_01.mp3?v=1689599261037",
+    "url" : "glitch-assets/XC443284 - Red-breasted Nuthatch - Sitta canadensis_01.mp3",
     "copyright" : "Ed Pandolfino",
     "xenolink": "https://xeno-canto.org/443284",
     "code": "13"
