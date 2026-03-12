@@ -8,7 +8,7 @@ $("#winner svg").css("fill","var(--black)")
 const birds =  [
    {
  "name": "Turkey Vulture",
-"url" : "https://colorchirp.com/glitch-assets/XC520288 - Turkey Vulture - Cathartes aura_01.mp3?v=1667176929960"
+"url" : "https://colorchirp.com/glitch-assets/XC520288 - Turkey Vulture - Cathartes aura_01.mp3?v=1667176929960",
     "copyright" : "Cristian Pinto",
     "xenolink": "https://xeno-canto.org/520288",
   }
