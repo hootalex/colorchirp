@@ -7,11 +7,11 @@ $("#winner svg").css("fill","var(--orange)")
 
 const birds =  [
    {
- "name": "Turkey Vulture",
-"url" : "https://colorchirp.com/glitch-assets/XC520288 - Turkey Vulture - Cathartes aura_01.mp3?v=1667176929960",
-    "copyright" : "Cristian Pinto",
-    "xenolink": "https://xeno-canto.org/520288",
-  }
+ "name": "Red-breasted Nuthatch",
+"url" : "https://colorchirp.com/glitch-assets/XC432767 - Red-breasted Nuthatch - Sitta canadensis_trimmed.mp3?v=1659043124446",
+    "copyright" : "Ed Pandolfino",
+    "xenolink": "https://xeno-canto.org/432767",
+  } 
 ]
 
 var colorcharttotal = 0
