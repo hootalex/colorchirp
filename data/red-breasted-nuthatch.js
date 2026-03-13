@@ -8,9 +8,9 @@ $("#winner svg").css("fill","var(--orange)")
 const birds =  [
    {
  "name": "Red-breasted Nuthatch",
-"url" : "https://colorchirp.com/glitch-assets/XC443284 - Red-breasted Nuthatch - Sitta canadensis_01.mp3",
+"url" : "https://colorchirp.com/glitch-assets/XC443284rbnu.mp3",
     "copyright" : "Ed Pandolfino",
-    "xenolink": "https://xeno-canto.org/432767",
+    "xenolink": "https://xeno-canto.org/443284",
   } 
 ]
 
